@@ -1,0 +1,383 @@
+[03-Jan-2019 12:26:17 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 34
+[03-Jan-2019 12:26:17 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 35
+[03-Jan-2019 12:26:17 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 35
+[03-Jan-2019 12:31:38 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 34
+[03-Jan-2019 12:31:38 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:38 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:39 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 34
+[03-Jan-2019 12:31:39 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:39 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:40 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 34
+[03-Jan-2019 12:31:40 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:40 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:40 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 34
+[03-Jan-2019 12:31:40 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:40 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:40 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 34
+[03-Jan-2019 12:31:40 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:40 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:40 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 34
+[03-Jan-2019 12:31:40 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:40 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:40 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 34
+[03-Jan-2019 12:31:40 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:40 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:40 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 34
+[03-Jan-2019 12:31:40 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:40 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:41 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 34
+[03-Jan-2019 12:31:41 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:41 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:41 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 34
+[03-Jan-2019 12:31:41 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:41 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:44 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 34
+[03-Jan-2019 12:31:44 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:31:44 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:36:09 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 34
+[03-Jan-2019 12:36:09 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 38
+[03-Jan-2019 12:36:09 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 38
+[03-Jan-2019 12:39:25 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 34
+[03-Jan-2019 12:39:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\xampp\htdocs\Project\Src\Router.php:22
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 22
+[03-Jan-2019 12:39:57 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 34
+[03-Jan-2019 12:39:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\xampp\htdocs\Project\Src\Router.php:22
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 22
+[03-Jan-2019 12:39:58 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 34
+[03-Jan-2019 12:39:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\xampp\htdocs\Project\Src\Router.php:22
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 22
+[03-Jan-2019 12:40:22 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 34
+[03-Jan-2019 12:40:22 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 35
+[03-Jan-2019 12:40:22 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 35
+[03-Jan-2019 12:41:19 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Project\Src\Router.php on line 31
+[03-Jan-2019 12:41:19 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 35
+[03-Jan-2019 12:41:19 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:41:19 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:41:47 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Project\Src\Router.php on line 32
+[03-Jan-2019 12:41:47 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:41:47 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 12:41:47 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 12:41:49 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Project\Src\Router.php on line 32
+[03-Jan-2019 12:41:49 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:41:49 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 12:41:49 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 12:41:49 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Project\Src\Router.php on line 32
+[03-Jan-2019 12:41:49 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:41:49 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 12:41:49 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 12:42:50 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Project\Src\Router.php on line 32
+[03-Jan-2019 12:42:50 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Project\Src\Router.php on line 32
+[03-Jan-2019 12:42:50 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Project\Src\Router.php on line 32
+[03-Jan-2019 12:42:50 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 12:42:50 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 38
+[03-Jan-2019 12:42:50 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 38
+[03-Jan-2019 12:43:33 Europe/Berlin] PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\Project\Src\Router.php on line 31
+[03-Jan-2019 12:43:33 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 35
+[03-Jan-2019 12:43:33 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:43:33 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:43:42 Europe/Berlin] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\Project\Src\Router.php on line 31
+[03-Jan-2019 12:43:42 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 35
+[03-Jan-2019 12:43:42 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:43:42 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:44:02 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Project\Src\Router.php on line 31
+[03-Jan-2019 12:44:02 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 35
+[03-Jan-2019 12:44:02 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:44:02 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:45:04 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 35
+[03-Jan-2019 12:45:04 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:45:04 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:45:47 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 12:45:47 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 12:45:47 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 12:47:21 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 35
+[03-Jan-2019 12:47:21 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 12:47:21 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:00:29 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Project\Src\Router.php on line 21
+[03-Jan-2019 13:00:29 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:00:29 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 38
+[03-Jan-2019 13:00:29 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 38
+[03-Jan-2019 13:00:42 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Project\Src\Router.php on line 21
+[03-Jan-2019 13:00:42 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 35
+[03-Jan-2019 13:00:42 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:00:42 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:00:50 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Project\Src\Router.php on line 21
+[03-Jan-2019 13:00:50 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 35
+[03-Jan-2019 13:00:50 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:00:50 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:00:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Project\Src\Router.php on line 21
+[03-Jan-2019 13:00:51 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 35
+[03-Jan-2019 13:00:51 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:00:51 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:00:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Project\Src\Router.php on line 21
+[03-Jan-2019 13:00:51 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 35
+[03-Jan-2019 13:00:51 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:00:51 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:00:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Project\Src\Router.php on line 21
+[03-Jan-2019 13:00:51 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 35
+[03-Jan-2019 13:00:52 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:00:52 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:09:35 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:09:35 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:09:35 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:10:01 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:10:02 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:10:02 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:10:02 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:10:02 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:10:02 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:10:07 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:10:07 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:10:07 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:10:11 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Project\Src\Router.php on line 16
+[03-Jan-2019 13:10:11 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:10:11 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:10:11 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:10:18 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Project\Src\Router.php on line 16
+[03-Jan-2019 13:10:18 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:10:18 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:10:18 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:10:24 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:10:24 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:10:24 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:12:46 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:12:46 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:12:46 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:12:53 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:12:53 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:12:53 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:16:28 Europe/Berlin] PHP Notice:  Undefined index: /Project/Public/index.php/user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:16:28 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 38
+[03-Jan-2019 13:16:28 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 38
+[03-Jan-2019 13:17:20 Europe/Berlin] PHP Notice:  Undefined index: user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:17:20 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:17:20 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:18:14 Europe/Berlin] PHP Notice:  Undefined index: user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:18:14 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:18:14 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:18:31 Europe/Berlin] PHP Notice:  Undefined index: user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:18:31 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 38
+[03-Jan-2019 13:18:31 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 38
+[03-Jan-2019 13:19:03 Europe/Berlin] PHP Notice:  Undefined index: user/{id} in C:\xampp\htdocs\Project\Src\Router.php on line 37
+[03-Jan-2019 13:19:03 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 38
+[03-Jan-2019 13:19:03 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 38
+[03-Jan-2019 13:19:23 Europe/Berlin] PHP Notice:  Undefined index: user/1 in C:\xampp\htdocs\Project\Src\Router.php on line 40
+[03-Jan-2019 13:19:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\xampp\htdocs\Project\Src\Router.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 24
+[03-Jan-2019 13:20:29 Europe/Berlin] PHP Notice:  Undefined index: user/1 in C:\xampp\htdocs\Project\Src\Router.php on line 41
+[03-Jan-2019 13:20:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\xampp\htdocs\Project\Src\Router.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 24
+[03-Jan-2019 13:20:30 Europe/Berlin] PHP Notice:  Undefined index: user/1 in C:\xampp\htdocs\Project\Src\Router.php on line 41
+[03-Jan-2019 13:20:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\xampp\htdocs\Project\Src\Router.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 24
+[03-Jan-2019 13:20:30 Europe/Berlin] PHP Notice:  Undefined index: user/1 in C:\xampp\htdocs\Project\Src\Router.php on line 41
+[03-Jan-2019 13:20:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\xampp\htdocs\Project\Src\Router.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 24
+[03-Jan-2019 13:20:30 Europe/Berlin] PHP Notice:  Undefined index: user/1 in C:\xampp\htdocs\Project\Src\Router.php on line 41
+[03-Jan-2019 13:20:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\xampp\htdocs\Project\Src\Router.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 24
+[03-Jan-2019 13:20:31 Europe/Berlin] PHP Notice:  Undefined index: user/1 in C:\xampp\htdocs\Project\Src\Router.php on line 41
+[03-Jan-2019 13:20:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\xampp\htdocs\Project\Src\Router.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 24
+[03-Jan-2019 13:20:43 Europe/Berlin] PHP Notice:  Undefined index: user/1 in C:\xampp\htdocs\Project\Src\Router.php on line 41
+[03-Jan-2019 13:20:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\xampp\htdocs\Project\Src\Router.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 24
+[03-Jan-2019 13:20:53 Europe/Berlin] PHP Notice:  Undefined index: user/1 in C:\xampp\htdocs\Project\Src\Router.php on line 41
+[03-Jan-2019 13:20:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\xampp\htdocs\Project\Src\Router.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 24
+[03-Jan-2019 13:21:03 Europe/Berlin] PHP Notice:  Undefined index: user/1 in C:\xampp\htdocs\Project\Src\Router.php on line 41
+[03-Jan-2019 13:21:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\xampp\htdocs\Project\Src\Router.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 24
+[03-Jan-2019 13:21:11 Europe/Berlin] PHP Notice:  Undefined index: user/1 in C:\xampp\htdocs\Project\Src\Router.php on line 41
+[03-Jan-2019 13:21:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\xampp\htdocs\Project\Src\Router.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 24
+[03-Jan-2019 13:21:14 Europe/Berlin] PHP Notice:  Undefined index: user/1 in C:\xampp\htdocs\Project\Src\Router.php on line 41
+[03-Jan-2019 13:21:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\xampp\htdocs\Project\Src\Router.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 24
+[03-Jan-2019 13:21:32 Europe/Berlin] PHP Notice:  Undefined index: user/1 in C:\xampp\htdocs\Project\Src\Router.php on line 41
+[03-Jan-2019 13:21:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\xampp\htdocs\Project\Src\Router.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 24
+[03-Jan-2019 13:21:47 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:21:47 Europe/Berlin] PHP Notice:  Undefined index: user/1 in C:\xampp\htdocs\Project\Src\Router.php on line 41
+[03-Jan-2019 13:21:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\xampp\htdocs\Project\Src\Router.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 24
+[03-Jan-2019 13:22:29 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:22:29 Europe/Berlin] PHP Notice:  Undefined index: user/1 in C:\xampp\htdocs\Project\Src\Router.php on line 41
+[03-Jan-2019 13:22:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\xampp\htdocs\Project\Src\Router.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 24
+[03-Jan-2019 13:23:08 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Project\Src\Router.php on line 36
+[03-Jan-2019 13:23:35 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Project\Src\Router.php on line 23
+[03-Jan-2019 13:23:36 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Project\Src\Router.php on line 23
+[03-Jan-2019 13:23:40 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Project\Src\Router.php on line 23
+[03-Jan-2019 13:23:41 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Project\Src\Router.php on line 23
+[03-Jan-2019 13:23:41 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Project\Src\Router.php on line 23
+[03-Jan-2019 13:24:14 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Project\Src\Router.php on line 23
+[03-Jan-2019 13:24:14 Europe/Berlin] PHP Recoverable fatal error:  Object of class UserController could not be converted to string in C:\xampp\htdocs\Project\Src\Router.php on line 25
+[03-Jan-2019 13:24:42 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Project\Src\Router.php on line 23
+[03-Jan-2019 13:25:42 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Project\Src\Router.php on line 16
+[03-Jan-2019 13:25:42 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Project\Src\Router.php on line 23
+[03-Jan-2019 13:25:56 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Project\Src\Router.php on line 23
+[03-Jan-2019 13:27:04 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Project\Src\Router.php on line 23
+[03-Jan-2019 13:27:05 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Project\Src\Router.php on line 23
+[03-Jan-2019 13:27:05 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Project\Src\Router.php on line 23
+[03-Jan-2019 13:27:05 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Project\Src\Router.php on line 23
+[03-Jan-2019 13:28:28 Europe/Berlin] PHP Notice:  Undefined variable: copy_url in C:\xampp\htdocs\Project\Src\Router.php on line 39
+[03-Jan-2019 13:28:28 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\Project\Src\Router.php on line 39
+[03-Jan-2019 13:28:28 Europe/Berlin] PHP Warning:  require_once(../App/Controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Project\Src\Router.php on line 40
+[03-Jan-2019 13:28:28 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../App/Controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Project\Src\Router.php on line 40
+[03-Jan-2019 13:29:25 Europe/Berlin] PHP Notice:  Undefined variable: action in C:\xampp\htdocs\Project\Src\Router.php on line 19
+[03-Jan-2019 13:29:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\xampp\htdocs\Project\Src\Router.php:19
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 19
+[03-Jan-2019 13:30:21 Europe/Berlin] PHP Notice:  Undefined variable: action in C:\xampp\htdocs\Project\Src\Router.php on line 21
+[03-Jan-2019 13:30:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\xampp\htdocs\Project\Src\Router.php:21
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 21
+[03-Jan-2019 13:30:26 Europe/Berlin] PHP Notice:  Undefined variable: action in C:\xampp\htdocs\Project\Src\Router.php on line 21
+[03-Jan-2019 13:30:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Method name must be a string in C:\xampp\htdocs\Project\Src\Router.php:21
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 21
+[03-Jan-2019 13:30:59 Europe/Berlin] PHP Notice:  Undefined variable: controllerObj in C:\xampp\htdocs\Project\Src\Router.php on line 20
+[03-Jan-2019 13:30:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function aboutUsAction() on null in C:\xampp\htdocs\Project\Src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 20
+[03-Jan-2019 13:31:34 Europe/Berlin] PHP Warning:  Illegal string offset 'controller' in C:\xampp\htdocs\Project\Src\Router.php on line 18
+[03-Jan-2019 13:31:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function aboutUsAction() on string in C:\xampp\htdocs\Project\Src\Router.php:21
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 21
+[03-Jan-2019 13:32:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function aboutUsAction() on string in C:\xampp\htdocs\Project\Src\Router.php:21
+Stack trace:
+#0 C:\xampp\htdocs\Project\Public\index.php(22): Router->checkUrl(Array, '/Project/Public...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\Src\Router.php on line 21
+[03-Jan-2019 13:39:08 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Project\Src\Router.php on line 24
+[03-Jan-2019 13:39:33 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Project\Src\Router.php on line 24
+[03-Jan-2019 13:39:41 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\Project\Src\Router.php on line 24
+[03-Jan-2019 14:11:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Router' not found in C:\xampp\htdocs\framework\public\index.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\framework\public\index.php on line 16
+[03-Jan-2019 14:14:39 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\framework\public\index.php on line 15
+[03-Jan-2019 14:14:39 Europe/Berlin] PHP Notice:  Undefined variable: routes in C:\xampp\htdocs\framework\public\index.php on line 20
+[03-Jan-2019 14:14:39 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Framework\Router::checkUrl() must be of the type array, null given, called in C:\xampp\htdocs\framework\public\index.php on line 20 and defined in C:\xampp\htdocs\framework\src\Router.php:12
+Stack trace:
+#0 C:\xampp\htdocs\framework\public\index.php(20): Framework\Router->checkUrl(NULL, '/framework/publ...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\framework\src\Router.php on line 12
+[03-Jan-2019 14:14:50 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\framework\public\index.php on line 15
+[03-Jan-2019 14:14:50 Europe/Berlin] PHP Notice:  Undefined variable: routes in C:\xampp\htdocs\framework\public\index.php on line 20
+[03-Jan-2019 14:14:50 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Framework\Router::checkUrl() must be of the type array, null given, called in C:\xampp\htdocs\framework\public\index.php on line 20 and defined in C:\xampp\htdocs\framework\src\Router.php:12
+Stack trace:
+#0 C:\xampp\htdocs\framework\public\index.php(20): Framework\Router->checkUrl(NULL, '/framework/publ...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\framework\src\Router.php on line 12
+[03-Jan-2019 14:14:52 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\framework\public\index.php on line 15
+[03-Jan-2019 14:14:52 Europe/Berlin] PHP Notice:  Undefined variable: routes in C:\xampp\htdocs\framework\public\index.php on line 20
+[03-Jan-2019 14:14:52 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Framework\Router::checkUrl() must be of the type array, null given, called in C:\xampp\htdocs\framework\public\index.php on line 20 and defined in C:\xampp\htdocs\framework\src\Router.php:12
+Stack trace:
+#0 C:\xampp\htdocs\framework\public\index.php(20): Framework\Router->checkUrl(NULL, '/framework/publ...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\framework\src\Router.php on line 12
+[03-Jan-2019 14:14:52 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\framework\public\index.php on line 15
+[03-Jan-2019 14:14:52 Europe/Berlin] PHP Notice:  Undefined variable: routes in C:\xampp\htdocs\framework\public\index.php on line 20
+[03-Jan-2019 14:14:52 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Framework\Router::checkUrl() must be of the type array, null given, called in C:\xampp\htdocs\framework\public\index.php on line 20 and defined in C:\xampp\htdocs\framework\src\Router.php:12
+Stack trace:
+#0 C:\xampp\htdocs\framework\public\index.php(20): Framework\Router->checkUrl(NULL, '/framework/publ...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\framework\src\Router.php on line 12
+[03-Jan-2019 14:16:51 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\framework\public\index.php on line 16
+[03-Jan-2019 14:16:51 Europe/Berlin] PHP Notice:  Undefined variable: routes in C:\xampp\htdocs\framework\public\index.php on line 21
+[03-Jan-2019 14:16:51 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Framework\Router::checkUrl() must be of the type array, null given, called in C:\xampp\htdocs\framework\public\index.php on line 21 and defined in C:\xampp\htdocs\framework\src\Router.php:12
+Stack trace:
+#0 C:\xampp\htdocs\framework\public\index.php(21): Framework\Router->checkUrl(NULL, '/framework/publ...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\framework\src\Router.php on line 12
+[03-Jan-2019 14:16:51 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\framework\public\index.php on line 16
+[03-Jan-2019 14:16:51 Europe/Berlin] PHP Notice:  Undefined variable: routes in C:\xampp\htdocs\framework\public\index.php on line 21
+[03-Jan-2019 14:16:51 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Framework\Router::checkUrl() must be of the type array, null given, called in C:\xampp\htdocs\framework\public\index.php on line 21 and defined in C:\xampp\htdocs\framework\src\Router.php:12
+Stack trace:
+#0 C:\xampp\htdocs\framework\public\index.php(21): Framework\Router->checkUrl(NULL, '/framework/publ...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\framework\src\Router.php on line 12
+[03-Jan-2019 14:16:52 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\framework\public\index.php on line 16
+[03-Jan-2019 14:16:52 Europe/Berlin] PHP Notice:  Undefined variable: routes in C:\xampp\htdocs\framework\public\index.php on line 21
+[03-Jan-2019 14:16:52 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Framework\Router::checkUrl() must be of the type array, null given, called in C:\xampp\htdocs\framework\public\index.php on line 21 and defined in C:\xampp\htdocs\framework\src\Router.php:12
+Stack trace:
+#0 C:\xampp\htdocs\framework\public\index.php(21): Framework\Router->checkUrl(NULL, '/framework/publ...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\framework\src\Router.php on line 12
+[03-Jan-2019 14:16:52 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\framework\public\index.php on line 16
+[03-Jan-2019 14:16:52 Europe/Berlin] PHP Notice:  Undefined variable: routes in C:\xampp\htdocs\framework\public\index.php on line 21
+[03-Jan-2019 14:16:52 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Framework\Router::checkUrl() must be of the type array, null given, called in C:\xampp\htdocs\framework\public\index.php on line 21 and defined in C:\xampp\htdocs\framework\src\Router.php:12
+Stack trace:
+#0 C:\xampp\htdocs\framework\public\index.php(21): Framework\Router->checkUrl(NULL, '/framework/publ...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\framework\src\Router.php on line 12
+[03-Jan-2019 14:17:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Router' not found in C:\xampp\htdocs\framework\public\index.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\framework\public\index.php on line 20
+[03-Jan-2019 14:18:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Router' not found in C:\xampp\htdocs\framework\public\index.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\framework\public\index.php on line 20
