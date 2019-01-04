@@ -1,0 +1,41 @@
+<html>
+    <style type="text/css">
+        .circle_green {
+        
+        padding: 1px 2px;
+        background: green;
+        height: 2px;
+        border-radius: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 2px;
+        display: inline-block;
+        }
+
+        .circle_red {
+        
+        padding: 1px 2px;
+        background: red;
+        height: 2px;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 2px;
+        display: inline-block;
+        }
+
+        .button_holder{ text-align: center; }
+    </style>
+
+    <form action="/framework/public/login.php" method="get">
+        <input type="email" name = "email" placeholder="name@email.com"><br/>
+        <input type="password" name = "pass"><br/>
+        <button type="submit">login</button>
+        <button type="submit">sign in</button>
+    </form>
+    
+    <form action="/framework/public/index.php/" method="post">
+        <input type="submit" value="Home">
+    </form>
+
+</html>

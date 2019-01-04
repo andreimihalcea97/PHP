@@ -9,7 +9,7 @@ class LoginController
         // echo ('<form action="/framework/public/login.php" method="post">');
         // echo ('</form>');
         //testare user si parola
-        header("Location: http://localhost/framework/public/login.php");
+        header("Location: http://localhost/framework/app/views/login_view.html");
 
     }
 
