@@ -13,7 +13,8 @@ class Router
         
         $url_array = explode("/", $url, 5);
         $controller_url = "/" . end($url_array);
-        
+        echo($controller_url);
+
         if(isset($routes[$controller_url])) {
             list($controllerObj, $action) = $this->getControllerName($routes, $controller_url);
             $controllerObj->{$action}();
@@ -47,7 +48,7 @@ class Router
             $action = $routes[$url]['action'];
             return array($controllerObj, $action);
         }
-        
+
     }
 }
 

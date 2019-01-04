@@ -381,3 +381,985 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in C:\xampp\htdocs\framework\public\index.php on line 20
+[03-Jan-2019 14:42:51 Europe/Berlin] PHP Notice:  Undefined index: /?fbclid=IwAR{id}KaaXQSNRBq0F40iGlslRme-7ZliVNeB-ACTfgHgzEgHwzNl2C5VwmodM in C:\xampp\htdocs\framework\src\Router.php on line 37
+[03-Jan-2019 14:42:51 Europe/Berlin] PHP Warning:  require_once(../app/controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\framework\src\Router.php on line 38
+[03-Jan-2019 14:42:51 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../app/controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\framework\src\Router.php on line 38
+[03-Jan-2019 14:44:06 Europe/Berlin] PHP Notice:  Undefined index: /?fbclid=IwAR{id}KaaXQSNRBq0F40iGlslRme-7ZliVNeB-ACTfgHgzEgHwzNl2C5VwmodM in C:\xampp\htdocs\framework\src\Router.php on line 37
+[03-Jan-2019 14:44:06 Europe/Berlin] PHP Warning:  require_once(../app/controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\framework\src\Router.php on line 38
+[03-Jan-2019 14:44:06 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../app/controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\framework\src\Router.php on line 38
+[03-Jan-2019 14:44:21 Europe/Berlin] PHP Notice:  Undefined index: /?fbclid=IwAR{id}KaaXQSNRBq0F40iGlslRme-7ZliVNeB-ACTfgHgzEgHwzNl2C5VwmodM in C:\xampp\htdocs\framework\src\Router.php on line 37
+[03-Jan-2019 14:44:21 Europe/Berlin] PHP Warning:  require_once(../app/controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\framework\src\Router.php on line 38
+[03-Jan-2019 14:44:21 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../app/controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\framework\src\Router.php on line 38
+[03-Jan-2019 14:59:42 Europe/Berlin] PHP Notice:  Undefined index: /user/{id}/ in C:\xampp\htdocs\framework\src\Router.php on line 37
+[03-Jan-2019 14:59:42 Europe/Berlin] PHP Warning:  require_once(../app/controllers/.php): failed to open stream: No such file or directory in C:\xampp\htdocs\framework\src\Router.php on line 38
+[03-Jan-2019 14:59:42 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../app/controllers/.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\framework\src\Router.php on line 38
+[03-Jan-2019 17:46:01 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 17
+[03-Jan-2019 17:46:01 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 17
+[03-Jan-2019 17:47:16 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 17
+[03-Jan-2019 17:47:16 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 17
+[03-Jan-2019 17:47:48 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 17
+[03-Jan-2019 17:47:48 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 17
+[03-Jan-2019 17:48:54 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 17
+[03-Jan-2019 17:48:54 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 17
+[03-Jan-2019 17:48:54 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 17
+[03-Jan-2019 17:48:54 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 17
+[03-Jan-2019 17:48:55 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 17
+[03-Jan-2019 17:48:55 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 17
+[03-Jan-2019 18:57:32 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 22
+[03-Jan-2019 18:57:32 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 22
+[03-Jan-2019 19:00:37 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:00:37 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:00:42 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:00:42 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:02:09 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:02:09 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:02:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:02:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:02:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:02:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:02:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:02:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:02:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:02:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:02:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:02:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:02:11 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:02:11 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:02:11 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:02:11 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:02:11 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:02:11 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 28
+[03-Jan-2019 19:02:18 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 21
+[03-Jan-2019 19:02:18 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 21
+[03-Jan-2019 19:02:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 21
+[03-Jan-2019 19:02:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 21
+[03-Jan-2019 19:02:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 36
+[03-Jan-2019 19:02:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 36
+[03-Jan-2019 19:02:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 36
+[03-Jan-2019 19:02:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 36
+[03-Jan-2019 19:02:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 36
+[03-Jan-2019 19:02:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 36
+[03-Jan-2019 19:02:57 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 36
+[03-Jan-2019 19:02:57 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 36
+[03-Jan-2019 19:02:57 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 36
+[03-Jan-2019 19:02:57 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 36
+[03-Jan-2019 19:02:57 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 36
+[03-Jan-2019 19:02:57 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 36
+[03-Jan-2019 19:05:49 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:05:49 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:05:49 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:05:49 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:05:49 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:05:49 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:05:50 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:05:50 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:05:50 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:05:50 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:05:50 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:05:50 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:05:57 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:05:57 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:01 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:01 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:01 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:01 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:01 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:01 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:05 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:05 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:05 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:05 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:05 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:05 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:18 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:18 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:18 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:18 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:18 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:18 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:20 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:20 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:20 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:20 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:20 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:20 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:21 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:21 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:24 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:24 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:24 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:24 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:24 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:24 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:41 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:41 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:41 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:41 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:41 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:06:41 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:15 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:15 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:15 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:15 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:15 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:15 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:17 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:17 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:17 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:17 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:17 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:17 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:21 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:21 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:21 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:21 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:21 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:21 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:40 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:40 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:45 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:45 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:46 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:46 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:46 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:46 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:47 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:47 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:47 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:47 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:47 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:08:47 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:07 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:07 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:07 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:07 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:07 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:07 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:09 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:09 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:09 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:09 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:09 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:09 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:14 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:09:14 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:10:08 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:10:08 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:10:11 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:10:11 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:10:11 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:10:11 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:10:11 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:10:11 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:10:12 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:10:12 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:10:13 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:10:13 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:10:13 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:10:13 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:11:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:11:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:11:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:11:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:11:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:11:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:11:53 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:11:53 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:11:53 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:11:53 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:11:53 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:11:53 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:11 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:11 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:11 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:11 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:14 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:14 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:31 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:31 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:33 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:33 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:33 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:33 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:33 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:33 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:35 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:35 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:35 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:35 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:35 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:35 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:44 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:12:44 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:13:26 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:13:26 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:13:29 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:13:29 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:13:29 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:13:29 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:13:29 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:13:29 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:14:05 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:14:05 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:14:29 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:14:29 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:15:03 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:15:03 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:15:38 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:15:38 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:15:58 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:15:58 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:16:07 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:16:07 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:17:06 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:17:06 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:17:09 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:17:09 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:17:12 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:17:12 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:17:14 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:17:14 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:17:15 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:17:15 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:17:16 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:17:16 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:17:18 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:17:18 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:17:20 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:17:20 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:18:02 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:18:02 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:18:05 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:18:05 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:18:08 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:18:08 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:18:11 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:18:11 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:19:16 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:19:16 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:19:21 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:19:21 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:19:25 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:19:25 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:19:43 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:19:43 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:19:56 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:19:56 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:21:41 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:21:41 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:23:06 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:23:06 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:23:34 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:23:34 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:23:36 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:23:36 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:23:38 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:23:38 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:23:40 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:23:40 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:24:00 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:24:00 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:24:02 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:24:02 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:24:04 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:24:04 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:24:05 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:24:05 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:25:30 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:25:30 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:26:17 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:26:17 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:27:54 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:27:54 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:28:28 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:28:28 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:28:50 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:28:50 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:29:48 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:29:48 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:30:29 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:30:29 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:30:55 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:30:55 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:31:15 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:31:15 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:31:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:31:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:31:27 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:31:27 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:35:26 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:35:26 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:38:46 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:38:46 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:39:50 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:39:50 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:40:16 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:40:16 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:40:34 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:40:34 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:40:42 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:40:42 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:43:02 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:43:02 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:46:28 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:46:28 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:46:31 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:46:31 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:47:26 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:47:26 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:49:08 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:49:08 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:49:47 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:49:47 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:49:59 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:49:59 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:50:13 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:50:13 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:50:24 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:50:24 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:50:31 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:50:31 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:51:08 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:51:08 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:51:25 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:51:25 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:52:20 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:52:20 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:52:58 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:52:58 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:53:31 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:53:31 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:53:40 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:53:40 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:54:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:54:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:55:01 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:55:01 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:55:14 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:55:14 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:55:43 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:55:43 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:55:57 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:55:57 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:56:07 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:56:07 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:56:13 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:56:13 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:56:19 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:56:19 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:56:25 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:56:25 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:56:31 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:56:31 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:56:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:56:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:57:13 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:57:14 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:57:34 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:57:34 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:58:17 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:58:17 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:58:25 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:58:25 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:58:41 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:58:41 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:58:46 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:58:46 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:59:01 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:59:01 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:59:15 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:59:15 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:59:49 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:59:49 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:59:56 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 19:59:56 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 20:00:06 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 20:00:06 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 20:00:08 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 20:00:08 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 20:00:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 20:00:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 20:00:13 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 20:00:13 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 38
+[03-Jan-2019 20:01:47 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:01:48 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:02:07 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:02:07 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:02:23 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:02:23 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:02:26 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:02:26 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:05:29 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:05:29 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:08:46 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:08:46 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:10:30 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:10:30 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:16:31 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:16:31 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:18:11 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:18:11 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:18:26 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:18:26 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:19:26 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:19:26 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:19:29 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:19:29 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:19:48 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:19:48 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:20:11 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:20:11 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:20:12 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:20:12 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:20:53 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:20:53 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:21:54 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:21:54 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:30:38 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:30:38 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:23 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:23 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:24 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:24 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:26 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:26 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:28 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:28 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:29 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:29 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:30 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:30 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:33 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:33 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:54 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:54 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:54 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:54 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:54 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:37:54 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:38:11 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:38:11 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:38:14 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:38:14 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:38:19 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:38:19 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:38:30 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:38:30 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:38:34 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:38:34 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:38:34 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:38:34 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:38:34 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:38:34 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:38:53 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:38:53 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:38:53 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:38:53 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:38:53 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:38:53 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:39:04 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:39:04 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:39:04 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:39:04 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:39:04 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:39:04 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 34
+[03-Jan-2019 20:39:59 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:39:59 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:39:59 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:39:59 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:39:59 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:39:59 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:40:23 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:40:23 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:40:24 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:40:24 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:40:24 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:40:24 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:40:24 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:40:24 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:40:31 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:40:31 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:40:31 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:40:31 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:40:31 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:40:31 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:40:32 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:40:32 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:40:32 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:40:32 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:40:32 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:40:32 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:06 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:06 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:06 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:06 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:06 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:06 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:17 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:17 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:17 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:17 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:17 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:17 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:44 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:44 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:44 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:44 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:44 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:44 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:47 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:47 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:47 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:47 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:47 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:48 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:53 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:53 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:53 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:53 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:53 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:44:53 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:43 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:43 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:49 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:49 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:53 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:53 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:53 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:53 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:54 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:54 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:54 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:54 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:55 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:55 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:55 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:55 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:55 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:55 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:57 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:46:57 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:47:44 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:47:44 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:53:49 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:53:49 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:54:06 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:54:06 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:54:42 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:54:42 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:55:34 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:55:34 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:56:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:56:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:56:55 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:56:55 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:56:55 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:56:55 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:56:55 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:56:55 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:13 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:13 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:13 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:13 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:13 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:13 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:14 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:14 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:14 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:14 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:14 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:14 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:27 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:27 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:28 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:28 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:28 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:28 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:28 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:58:28 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:59:36 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:59:36 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:59:37 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:59:37 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:59:37 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:59:37 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:59:37 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 20:59:37 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:06 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:06 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:07 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:07 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:07 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:07 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:07 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:07 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:11 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:11 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:11 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:11 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:11 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:11 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:42 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:42 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:49 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:49 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:49 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:49 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:49 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:01:49 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:04:47 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:04:47 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:04:47 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:04:47 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:04:47 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:04:47 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:43 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:43 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:43 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:43 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:43 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:43 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:45 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:45 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:45 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:45 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:45 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:45 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:45 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:45 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:45 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:45 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:45 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:45 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:46 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:46 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:46 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:46 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:46 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:46 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:50 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:50 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:53 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:53 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:53 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:53 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:53 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[03-Jan-2019 21:10:53 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 09:59:42 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 09:59:42 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 09:59:42 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 09:59:42 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 09:59:42 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 09:59:42 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:34 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:34 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:47 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:47 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:47 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:47 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:47 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:47 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:52 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:52 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:52 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:52 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:52 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:52 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:52 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:52 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:52 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:52 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:52 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:52 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:52 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:52 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:52 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:52 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:52 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:02:52 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:10 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:12 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:12 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:12 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:12 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:12 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:12 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:15 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:15 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:30 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:30 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:30 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:30 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:30 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:30 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:33 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:33 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:33 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:33 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:33 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:33 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:34 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:34 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:34 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:34 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:34 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:34 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:36 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:36 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:36 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:36 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:36 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:36 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:40 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:40 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:40 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:40 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:40 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:40 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:46 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:46 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:46 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:46 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:46 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:09:46 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:10:53 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:10:53 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:10:53 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:10:53 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:10:53 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:10:53 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:10:54 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:10:54 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:10:54 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:10:54 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:10:54 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:10:54 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:11 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:11 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:13 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:13 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:13 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:13 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:13 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:13 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:15 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:15 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:15 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:15 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:15 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:15 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:16 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:16 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:16 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:16 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:16 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:16 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:16 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:16 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:16 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:16 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:16 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:16 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:16 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:16 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:16 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:16 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:16 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:16 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:23 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:23 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:23 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:23 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:23 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:23 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:23 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:23 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:23 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:23 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:23 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:23 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:49 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:49 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:51 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:51 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:52 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:52 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:52 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:52 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:52 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:52 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:52 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:52 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:52 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:52 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:52 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:12:52 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:13:54 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:13:54 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:13:55 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:13:55 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:13:58 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:13:58 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:13:58 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:13:58 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:13:58 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:13:58 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:13:59 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:13:59 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:00 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:00 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:00 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:00 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:00 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:00 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:01 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:01 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:21 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:21 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:21 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:21 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:21 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:21 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:22 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:49 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:49 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:49 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:49 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:49 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:49 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:49 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:14:49 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:15:01 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:15:01 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:15:01 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:15:01 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:15:01 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:15:01 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:15:03 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:15:03 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:18:34 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:18:34 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:18:34 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:18:34 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:18:34 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:18:34 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:18:36 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:18:36 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:19:30 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:19:30 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:19:30 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:19:30 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:19:30 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:19:30 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:19:31 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:19:31 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:20:03 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:20:03 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:20:03 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:20:03 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:20:03 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:20:03 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:20:07 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:20:07 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:20:55 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:20:55 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:20:57 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:20:57 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:21:08 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:21:08 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:21:09 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\framework\public\index.php on line 37
+[04-Jan-2019 10:21:09 Europe/Berlin] PHP Notice:  Undefined property: Config::$Array in C:\xampp\htdocs\framework\public\index.php on line 37

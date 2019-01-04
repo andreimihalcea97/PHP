@@ -5,10 +5,12 @@
 $routes = [
     '/' => ['controller' => 'HomeController',
             'action' => 'homeAction'],
-    '/page/about-us' => ['controller' => 'PageController',
+    '/pages/about_us.php' => ['controller' => 'PageController',
         'action' => 'aboutUsAction'],
     '/user/{id}' => ['controller' => 'UserController',
-        'action' => 'showAction']
+        'action' => 'showAction'],
+    '/login.php' => ['controller' => 'LoginController',
+        'action' => 'logInAction']
 ];
 
 ?>
