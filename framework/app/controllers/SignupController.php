@@ -15,7 +15,7 @@ class SignupController
     public function signUpCompleteAction(){
 
         //redirect to login page
-        header("Location: http://localhost/framework/public/login.php");
+        header("Location: http://localhost/framework/app/views/login_view.html");
     }
 }
 

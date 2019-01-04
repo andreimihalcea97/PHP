@@ -14,15 +14,14 @@ try{
         if ($result !== false)
         {
             echo 'Assigned';
+            // TODO: -> HERE REDIRECT TO USER_VIEW.HTML
         }
         else
         {
             echo 'Unassigned';
+            // TODO: -> HERE REDIRECT BACK TO LOGIN_VIEW.HTML
         }
     } catch(Throwable $e){}
-    // check in db to see if user is registered
-    // if registered -> set link to index where the router goes to users page
-    // if not try and login
     echo('<div id="header" style="width:500px;text-align: left;">');
     echo('Connected to database ');
     echo('<div class="circle_green" id="centered" style="text-align: center; width: 10; height: 10"></div>');
