@@ -9,8 +9,12 @@ $routes = [
         'action' => 'aboutUsAction'],
     '/user/{id}' => ['controller' => 'UserController',
         'action' => 'showAction'],
-    '/login.php' => ['controller' => 'LoginController',
-        'action' => 'logInAction']
+    '/login' => ['controller' => 'LoginController',
+        'action' => 'logInAction'],
+    '/signup' => ['controller' => 'SignupController',
+        'action' => 'signUpAction'],
+    '/signupcomplete' => ['controller' => 'SignupController',
+        'action' => 'signUpCompleteAction']
 ];
 
 ?>

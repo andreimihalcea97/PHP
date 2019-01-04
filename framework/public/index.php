@@ -9,7 +9,7 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <form action="/framework/public/index.php/login.php" method="post">
+    <form action="/framework/public/index.php/login" method="post">
         <input type="submit" value="Go to Login">
     </form>
     <form action="/framework/public/pages.php" method="post">

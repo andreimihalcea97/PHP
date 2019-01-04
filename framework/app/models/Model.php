@@ -10,7 +10,7 @@ abstract class Model
 
 	public function newDbCon($resultAsArray = false)
 	{
-
+		
     	$dsn = Config::DB['driver'];
     	$dsn .= ":host=".Config::DB['host'];
     	$dsn .= ";dbname=".Config::DB['dbname'];
@@ -39,6 +39,7 @@ abstract class Model
  	*/
 	public function getAll(): array
 	{
+		//updated
     	$db = $this->newDbCon();
     	$stmt = $db->query("SELECT * from $this->table");
 
@@ -51,41 +52,51 @@ abstract class Model
  	*/
 	public function get($id)
 	{
+		//updated
     	$db = $this->newDbCon();
-    	$stmt = $db->prepare("SELECT * from $this->table where id=?");
-    	$stmt->execute([$id]);
+    	$stmt = $db->prepare("SELECT * from $this->table where ID = :id");
+    	$stmt->execute(array(':id' => $id));
 
     	return $stmt->fetch();
 	}
 
 	/**
  	* this function will prepare data to be used in sql statement
- 	* 1. Will extract values from $data
+ 	* 1. Will extract values from $data and $table_names
  	* 2. Will create the prepared sql string with columns from $data
  	*/
-	protected function prepareDataSearchForStmt(array $data, bool $like): array
+	public function prepareDataSearchForStmt(array $table_names, array $data): string
 	{
-    	$columns = '';
+		//updated
+    	$query = '';
     	$values = [];
-    	$i = 1;
-    	$searchStr = "=";
-    	if ($like) {
-        	$searchStr = " LIKE ";
-    	}
+    	$i = 0;
+		
+		// delete from table names ID
+		unset($table_names[0]);
 
+		// load from data the searched user abut it's reversed.
     	foreach($data as $key => $value) {
-
+			
         	$values[]= $value;
-        	$columns .= $key . $searchStr . "?";
-        	//if we are not at the last element with the iteration
-        	if($i < (count($data))) {
-            	$columns .= "AND ";
-        	}
+		}
+		
+		// bring it to normal
+		$values = array_reverse($values);
 
-        	$i++;
-    	}
+		// create sql query
+		foreach($table_names as $key => $value) {
 
-    	return [$columns, $values];
+			//echo $value;
+			$query .= $value . " = '". "$values[$i]" . "'";
+			if($i < (count($data) - 1)) {
+					$query .= " AND ";
+				}
+			$i++;
+		}
+
+		// return query
+    	return $query;
 	}
 
 	/**
@@ -95,35 +106,68 @@ abstract class Model
  	*
  	* return false or an object
  	*/
-	public function find(array $data, bool $like = false)
+	public function find(array $data, bool $like = true)
 	{
-    	list($columns, $values) = $this->prepareDataForSearchStmt($data, $like);
+		//updated
+		// get column names from table
+		$db = $this->newDbCon();
+		$q = $db->prepare("DESCRIBE $this->table");
+		$q->execute();
+		$table_fields = $q->fetchAll(PDO::FETCH_COLUMN);
 
-    	$db = $this->newDbCon();
-    	$stmt = $db->prepare("SELECT * from $this->table where $columns");
-    	$stmt->execute($values);
-
+		$query = $this->prepareDataSearchForStmt($table_fields, $data, $like);
+    	$stmt = $db->prepare("SELECT * from $this->table WHERE $query");
+		$stmt->execute();
+		
     	return $stmt->fetch();
 	}
 
-	private function prepareStmt(array $data): array
+	private function prepareStmtForAdding(array $table_names, array $data): array
 	{
-    	$i = 1;
-    	$columns = '';
+		//updated
+    	$columns = ' (';
     	$values = [];
+    	$i = 0;
+		
+		// delete from table names ID
+		unset($table_names[0]);
 
-    	foreach ($data as $key => $value) {
-        	$values[] = $value;
-        	$columns .= $key .'=?';
+		// load from data the searched user abut it's reversed.
+    	foreach($data as $key => $value) {
+			
+			//echo $value;
+        	$values[]= $value;
+		}
 
-        	if($i < (count($data))) {
-            	$columns .= ", ";
-        	}
+		// bring it to normal
+		$values = array_reverse($values);
+		$values_string = '(';
 
-        	$i++;
-    	}
+		foreach($values as $key => $value) {
+			
+			$values_string .= "'" . $value . "'";
+			if($i < (count($data) - 1)) {
+				$values_string .= ", ";
+			}
+			$i++;
+		}
+		$values_string .= ")";
 
-    	return [$columns, $values];
+		$i = 0;
+
+		// create sql query
+		foreach($table_names as $key => $value) {
+			//. "$values[$i]" . "'";
+			$columns .= $value;
+			if($i < (count($data) - 1)) {
+					$columns .= ", ";
+				}
+			$i++;
+		}
+		$columns .= ")";
+		
+		// return query items
+    	return [$columns, $values_string];
 	}
 
 	/**
@@ -131,28 +175,86 @@ abstract class Model
  	*/
 	public function new(array $data): int
 	{
-    	list($columns, $values) = $this->prepareStmt($data);
+		//updated
+		$db = $this->newDbCon();
+		$q = $db->prepare("DESCRIBE $this->table");
+		$q->execute();
+		$table_fields = $q->fetchAll(PDO::FETCH_COLUMN);
+		
+    	list($columns, $values) = $this->prepareStmtForAdding($table_fields, $data);
 
-    	$db = $this->newDbCon();
-    	$stmt = $db->prepare('INSERT INTO ' . $this->table . ' SET ' . $columns);
-
-    	$stmt->execute($values);
+    	$stmt = $db->prepare("INSERT INTO $this->table $columns VALUES $values");
+    	$stmt->execute();
 
     	return $db->lastInsertId();
 	}
 
-	/**
- 	* Update data in table
- 	*/
-	public function update(array $where, array $data): bool
+	private function prepareStmtForUpdating(array $table_names, array $data): array
 	{
-    	list($columns, $values) = $this->prepareStmt($data);
+		//non functional
+    	$columns = ' (';
+    	$values = [];
+    	$i = 0;
+		
+		// delete from table names ID
+		unset($table_names[0]);
+
+		// load from data the searched user abut it's reversed.
+    	foreach($data as $key => $value) {
+			
+			//echo $value;
+        	$values[]= $value;
+		}
+
+		// bring it to normal
+		$values = array_reverse($values);
+		$values_string = '(';
+
+		foreach($values as $key => $value) {
+			
+			$values_string .= "'" . $value . "'";
+			if($i < (count($data) - 1)) {
+				$values_string .= ", ";
+			}
+			$i++;
+		}
+		$values_string .= ")";
+
+		$i = 0;
+
+		// create sql query
+		foreach($table_names as $key => $value) {
+			//. "$values[$i]" . "'";
+			$columns .= $value;
+			if($i < (count($data) - 1)) {
+					$columns .= ", ";
+				}
+			$i++;
+		}
+		$columns .= ")";
+		
+		// return query items
+    	return [$columns, $values_string];
+	}
+
+	/**
+	 * Update data in table
+	 * $condition = string (ex: EMail = email AND Username = username)
+ 	*/
+	public function update(array $condition, array $data): bool
+	{
+		//non functional
+    	$db = $this->newDbCon();
+		$q = $db->prepare("DESCRIBE $this->table");
+		$q->execute();
+		$table_fields = $q->fetchAll(PDO::FETCH_COLUMN);
+		
+    	list($columns, $condition) = $this->prepareStmtForUpdating($table_fields, $data);
     	//add the value of $where array to the list of $values that will be used in the prepared statement
     	//reset($where) it's a trick to extract the value of an associative array with a single element
-    	$values[] = reset($where);
-
-    	$db = $this->newDbCon();
-    	$stmt = $db->prepare('UPDATE ' . $this->table . ' SET ' . $columns . ' WHERE ' . key($where) . '=?');
+		//$values[] = reset($where);
+		
+    	$stmt = $db->prepare("UPDATE $this->table SET $columns WHERE $condition");
 
     	return $stmt->execute($values);
 	}
@@ -160,11 +262,13 @@ abstract class Model
 	/**
  	* Delete data from table
  	*/
-	public function delete(int $id): bool
+	public function delete(int $id)
 	{
+		//updated
     	$db = $this->newDbCon();
-    	$stmt = $db->prepare('DELETE FROM ' . $this->table . ' WHERE id=?');
+		$stmt = $db->prepare("DELETE FROM $this->table WHERE ID = :id");
+		$stmt->execute(array(':id' => $id));
 
-    	return $stmt->execute([$id]);
+    	return $stmt->fetch();
 	}
 }
