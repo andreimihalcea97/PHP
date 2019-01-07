@@ -9,8 +9,8 @@ namespace Framework;
 class Router
 {
     private $routes;
-    //private $url;
-    //private $param;
+    private $url;
+    private $param;
 
     public function __construct(array $routes)
     {
@@ -23,50 +23,80 @@ class Router
         $this->param = $param;
     }
 
-    public function checkUrl(string $url, string $param, array $routes):void{
+    public function checkUrl():void{
         
-        $url_array = explode("/", $url, 5);
-        $controller_url = "/" . end($url_array);
-        echo $controller_url;
+        //$url_array = explode("/", $url, 5);
+        //$controller_url = "/" . end($url_array);
+        echo $this->url;
 
-        if(isset($this->routes[$controller_url])) {
-            list($controllerObj, $action) = $this->getControllerName($this->routes, $controller_url);
-            $controllerObj->{$action}();
-        }
-        else if(preg_match('/\d+/', $url, $id))
+        if(preg_match('/login/', $this->url))
         {
-            $index_url = explode("/", $url);
-            $index = end($index_url);
-            list($controllerObj, $action) = $this->getControllerName($this->routes, end($url_array), $id[0]);
-            $controllerObj->{$action}($index);
+            list($controllerObj, $action) = $this->getControllerName('login');
+            $controllerObj->{$action}();
+            return;
         }
-        else{
-            echo "404 Not Found";
+
+        if(preg_match('/signupdone/', $this->url))
+        {
+            list($controllerObj, $action) = $this->getControllerName('signup');
+            $controllerObj->{$action}();
+            return;
         }
+
+        if(isset($this->routes[$this->url])) {
+            list($controllerObj, $action) = $this->getControllerName();
+            $controllerObj->{$action}();
+            return;
+        }
+        // else if(preg_match('/login?', $this->url))
+        // {
+        //     echo 'aici';
+        // }
+        // else if(preg_match('/\d+/', $this->url, $id))
+        // {
+        //     $index_url = explode("/", $url);
+        //     $index = end($index_url);
+        //     list($controllerObj, $action) = $this->getControllerName($this->routes, $this->url, $id[0]);
+        //     $controllerObj->{$action}($index);
+        // }
+        echo "404 Not Found";
     }
 
-    public function getControllerName(array $routes, string $url, int $id=null)
+    public function getControllerName(string $flag=null)
     {   
-        print_r($this->routes);
-        die();
-        if($id){
-            $copy_url = "/" . str_replace($id,"{id}",$url);
-            $controller = $this->routes[$copy_url]['controller'];
-            $action = $this->routes[$copy_url]['action'];
-            # NAMESPACES?
-            //$reflectionClass = new \ReflectionClass('App\\Controllers\\' . $controller);
+        if($flag == 'login' or $flag =='signup')
+        {
+            $controllerUrl = explode('?', $this->url);
+            $controller = $this->routes[$controllerUrl[0]]['controller'];
+            $action = $this->routes[$controllerUrl[0]]['action'];
             $controllerName = 'App\\Controllers\\' . $controller;
             $controllerObj = new $controllerName;
-            //$controllerObj = $reflectionClass->newInstance();
             return array($controllerObj, $action);
         }
-        else{
-            $controller = $this->routes[$url]['controller'];
-            $action = $this->routes[$url]['action'];
-            $reflectionClass = new \ReflectionClass('App\\Controllers\\' . $controller);
-            $controllerObj = $reflectionClass->newInstance();
-            return array($controllerObj, $action);
-        }
+
+        $controller = $this->routes[$this->url]['controller'];
+        $action = $this->routes[$this->url]['action'];
+        $controllerName = 'App\\Controllers\\' . $controller;
+        $controllerObj = new $controllerName;
+        return array($controllerObj, $action);
+        // if($id){
+        //     $copy_url = "/" . str_replace($id,"{id}",$url);
+        //     $controller = $this->routes[$copy_url]['controller'];
+        //     $action = $this->routes[$copy_url]['action'];
+        //     # NAMESPACES?
+        //     //$reflectionClass = new \ReflectionClass('App\\Controllers\\' . $controller);
+        //     $controllerName = 'App\\Controllers\\' . $controller;
+        //     $controllerObj = new $controllerName;
+        //     //$controllerObj = $reflectionClass->newInstance();
+        //     return array($controllerObj, $action);
+        // }
+        // else{
+        //     $controller = $this->routes[$url]['controller'];
+        //     $action = $this->routes[$url]['action'];
+        //     $reflectionClass = new \ReflectionClass('App\\Controllers\\' . $controller);
+        //     $controllerObj = $reflectionClass->newInstance();
+        //     return array($controllerObj, $action);
+        // }
     }
 }
 

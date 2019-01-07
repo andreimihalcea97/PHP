@@ -1,0 +1,16 @@
+{% set pageTitle="User not recognized" %}
+{% extends "layout.html" %}
+{% block head %}
+    {{parent()}}
+{% endblock %}
+{% block content %}
+    <u1>
+        <form action="/signup/" method="post">
+            <button type="submit">Sign up</button>
+        </form>
+        <form action="/" method="post">
+            <button type="submit">Log in again</button>
+        </form>
+    </u1>
+{% endblock %}
+

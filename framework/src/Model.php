@@ -131,17 +131,80 @@ abstract class Model
     /**
      * Insert new data in table
      */
-    public function new(array $data): int
-    {
-        list($columns, $values) = $this->prepareStmt($data);
+    // public function new(array $data): int
+    // {
+    //     list($columns, $values) = $this->prepareStmt($data);
 
-        $db = $this->newDbCon();
-        $stmt = $db->prepare('INSERT INTO ' . $this->table . ' SET ' . $columns);
+    //     $db = $this->newDbCon();
+    //     $stmt = $db->prepare('INSERT INTO ' . $this->table . ' SET ' . $columns);
 
-        $stmt->execute($values);
+    //     $stmt->execute($values);
 
-        return $db->lastInsertId();
+    //     return $db->lastInsertId();
+    // }
+    private function prepareStmtForAdding(array $table_names, array $data): array
+	{
+		//updated
+    	$columns = ' (';
+    	$values = [];
+    	$i = 0;
+		
+		// delete from table names ID
+		unset($table_names[0]);
+
+		// load from data the searched user abut it's reversed.
+    	foreach($data as $key => $value) {
+			
+			//echo $value;
+        	$values[]= $value;
+		}
+
+		// bring it to normal
+		$values = array_reverse($values);
+		$values_string = '(';
+
+		foreach($values as $key => $value) {
+			
+			$values_string .= "'" . $value . "'";
+			if($i < (count($data) - 1)) {
+				$values_string .= ", ";
+			}
+			$i++;
+		}
+		$values_string .= ")";
+
+		$i = 0;
+
+		// create sql query
+		foreach($table_names as $key => $value) {
+			//. "$values[$i]" . "'";
+			$columns .= $value;
+			if($i < (count($data) - 1)) {
+					$columns .= ", ";
+				}
+			$i++;
+		}
+		$columns .= ")";
+		
+		// return query items
+    	return [$columns, $values_string];
     }
+    
+    public function new(array $data): int
+	{
+		//updated
+		$db = $this->newDbCon();
+		$q = $db->prepare("DESCRIBE $this->table");
+		$q->execute();
+		$table_fields = $q->fetchAll(PDO::FETCH_COLUMN);
+		
+    	list($columns, $values) = $this->prepareStmtForAdding($table_fields, $data);
+
+    	$stmt = $db->prepare("INSERT INTO $this->table $columns VALUES $values");
+    	$stmt->execute();
+
+    	return $db->lastInsertId();
+	}
 
     /**
      * Update data in table

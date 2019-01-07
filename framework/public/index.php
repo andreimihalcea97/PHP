@@ -28,5 +28,5 @@ function dd($data) {
 }
 
 $router = new Framework\Router($routes);
-//$router->getResource($_SERVER['REQUEST_URI'], $_SERVER["QUERY_STRING"]);
-$router->checkUrl($_SERVER['REQUEST_URI'], $_SERVER["QUERY_STRING"], $routes);
+$router->getResource($_SERVER['REQUEST_URI'], $_SERVER["QUERY_STRING"]);
+$router->checkUrl();

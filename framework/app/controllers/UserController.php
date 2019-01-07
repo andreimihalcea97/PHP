@@ -23,25 +23,43 @@ class UserController extends Controller
             $email = $_GET['email'];
             $password = $_GET['pass'];
             $db = $admin->newDbCon();
-            $sth = $db->prepare('SELECT EMail, Password FROM registeredusers WHERE EMail = :email AND Password = :password');
+            $sth = $db->prepare('SELECT ID FROM registeredusers WHERE EMail = :email AND Password = :password');
             $sth->execute(array(':email' => $email, ':password' => $password));
             $result = $sth->fetch();
             if ($result !== false)
             {
-                echo 'Assign';
-                die();
-                // TODO: -> HERE REDIRECT TO USER_VIEW.HTML
+                $user = (new User)->get($result->ID);
+                return $this->view('user/show.html', ["user" => $user]);
             }
             else
             {
-                die();
-                echo 'Unassigned';
-                // TODO: -> HERE REDIRECT BACK TO LOGIN_VIEW.HTML
+                return $this->view('user/unassigned_user.html');
             }
         } catch(Throwable $e){}
+    }
 
-        //$user = (new User)->get($id);
-
-        //return $this->view('user/show.html', ["user" => $user]);
+    public function signupAction()
+    {   
+        return $this->view('user/signup.html');
+    }
+    
+    public function signupDoneAction()
+    {   
+        $admin = new User();
+        try{
+            $email = $_GET['email'];
+            $username = $_GET['username'];
+            $password = $_GET['pass'];
+            $result = $admin->new(array($email, $password, $username));
+            if ($result !== false)
+            {
+                $user = (new User)->get($result);
+                return $this->view('user/show.html', ["user" => $user]);
+            }
+            else
+            {
+                return $this->view('user/unassigned_user.html');
+            }
+        } catch(Throwable $e){}
     }
 }
