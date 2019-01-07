@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+            <link rel="stylesheet" href="layout.css" />
+            <title>{{pageTitle}}</title>
+        {% endblock %}
+    </head>
+    <body>
+        <div id="content">{% block content %}Default content{% endblock %}</div>
+    </body>
+</html>

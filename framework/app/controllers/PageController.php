@@ -1,15 +1,20 @@
 <?php
+namespace App\Controllers;
 
-//namespace App\Controllers;
+use Framework\Controller;
 
-class PageController
+/**
+ * Class PageController
+ */
+class PageController extends Controller
 {
-    public function aboutUsAction(){
-
-        echo "About us";
-
+    public function aboutUsAction()
+    {
+        return $this->view("pages/about-us.html");
     }
 
+    public function homeAction()
+    {
+        return $this->view("pages/home.html");
+    }
 }
-
-?>

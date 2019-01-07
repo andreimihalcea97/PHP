@@ -1,9 +1,12 @@
 {
     "autoload": {
-        "psr-4": {
-            "Framework\\": "src/",
-            "App\\": "app/"
+        "psr-4": { 
+            "App\\": "app/",
+            "Framework\\": "src/"
         }
+    },
+    "require": {
+        "tracy/tracy": "^2.5",
+        "twig/twig": "^2.0"
     }
- }
- 
+}

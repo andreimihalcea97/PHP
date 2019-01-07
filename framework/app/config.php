@@ -1,10 +1,6 @@
 <?php
 
-//namespace App;
-
-// $config = [
-//     "env" => "dev"
-// ];
+namespace App;
 
 class Config {
     const ENV = "dev";

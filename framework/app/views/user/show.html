@@ -1,0 +1,13 @@
+{% set pageTitle="User details" %}
+{% extends "layout.html" %}
+{% block head %}
+    {{parent()}}
+{% endblock %}
+{% block content %}
+<h1>User {{user.Username}}</h1>
+<ul>
+    <li>Email: {{user.EMail}}</li>
+    <li>Registered: {{user.created_at}}</li>
+</ul>
+{% endblock %}
+

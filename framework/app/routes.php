@@ -1,20 +1,8 @@
 <?php
-
-//namespace App;
-
 $routes = [
-    '/' => ['controller' => 'HomeController',
-            'action' => 'homeAction'],
-    '/pages/about_us.php' => ['controller' => 'PageController',
-        'action' => 'aboutUsAction'],
-    '/user/{id}' => ['controller' => 'UserController',
-        'action' => 'showAction'],
-    '/login' => ['controller' => 'LoginController',
-        'action' => 'logInAction'],
-    '/signup' => ['controller' => 'SignupController',
-        'action' => 'signUpAction'],
-    '/signupcomplete' => ['controller' => 'SignupController',
-        'action' => 'signUpCompleteAction']
+    '/login' => ['controller' => 'UserController', 'action' => 'loginAction'],
+    '/' => ['controller' => 'PageController', 'action' => 'homeAction'],
+    '/page/about-us' => ['controller' => 'PageController', 'action' => 'aboutUsAction'],
+    '/user/{id}' => ['controller' => 'UserController', 'action' => 'showAction'],
+    '/user/edit/{id}' => ['controller' => 'UserController', 'action' => 'showAction', 'guard' => 'Authenticated']
 ];
-
-?>
