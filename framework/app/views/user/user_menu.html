@@ -1,0 +1,15 @@
+{% set pageTitle="Stean.com" %}
+{% extends "layout.html" %}
+{% block head %}
+    {{parent()}}
+{% endblock %}
+{% block content %}
+<h1>Hi {{user.Username}}!</h1>
+<form action="/user/go-to-store/{{user.ID}}" method="post">
+    <button type="submit">Go to store</button>
+</form>
+<form action="/user/go-to-profile/{{user.ID}}" method="post">
+    <button type="submit">Go to profile</button>
+</form>
+{% endblock %}
+

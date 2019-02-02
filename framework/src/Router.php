@@ -43,6 +43,22 @@ class Router
             return;
         }
 
+        if(preg_match("/go-to-profile/", $this->url)){
+            $index_url = explode("/", $this->url);
+            $index = end($index_url);
+            list($controllerObj, $action) = $this->getControllerName('user/profile');
+            $controllerObj->{$action}($index);
+            return;
+        }
+
+        if(preg_match("/go-to-store/", $this->url)){
+            $index_url = explode("/", $this->url);
+            $index = end($index_url);
+            list($controllerObj, $action) = $this->getControllerName('user/profile');
+            $controllerObj->{$action}($index);
+            return;
+        }
+
         if(isset($this->routes[$this->url])) {
             list($controllerObj, $action) = $this->getControllerName();
             $controllerObj->{$action}();
@@ -60,6 +76,8 @@ class Router
         //     $controllerObj->{$action}($index);
         // }
         echo "404 Not Found";
+        list($controllerObj, $action) = $this->getControllerName("home");
+        $controllerObj->{$action}();
     }
 
     public function getControllerName(string $flag=null)
@@ -69,6 +87,28 @@ class Router
             $controllerUrl = explode('?', $this->url);
             $controller = $this->routes[$controllerUrl[0]]['controller'];
             $action = $this->routes[$controllerUrl[0]]['action'];
+            $controllerName = 'App\\Controllers\\' . $controller;
+            $controllerObj = new $controllerName;
+            return array($controllerObj, $action);
+        }
+
+        if($flag == "user/profile")
+        {
+            $controllerUrl = explode('/', $this->url, -1);
+            $controllerUrl = implode('/', $controllerUrl);
+            $controller = $this->routes[$controllerUrl]['controller'];
+            $action = $this->routes[$controllerUrl]['action'];
+            $controllerName = 'App\\Controllers\\' . $controller;
+            $controllerObj = new $controllerName;
+            return array($controllerObj, $action);
+        }
+
+        if($flag == "home")
+        {
+            echo $this->url;
+            $controllerUrl = explode('?', $this->url);
+            $controller = $this->routes["/home/"]['controller'];
+            $action = $this->routes["/home/"]['action'];
             $controllerName = 'App\\Controllers\\' . $controller;
             $controllerObj = new $controllerName;
             return array($controllerObj, $action);

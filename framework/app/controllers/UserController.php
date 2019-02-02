@@ -16,6 +16,12 @@ class UserController extends Controller
         return $this->view('user/show.html', ["user" => $user]);
     }
 
+    public function goToStore($id)
+    {
+        $user = (new User)->get($id);
+        return $this->view('user/user_store.html', ["user" => $user]);
+    }
+
     public function loginAction()
     {   
         $admin = new User();
@@ -29,7 +35,7 @@ class UserController extends Controller
             if ($result !== false)
             {
                 $user = (new User)->get($result->ID);
-                return $this->view('user/show.html', ["user" => $user]);
+                return $this->view('user/user_menu.html', ["user" => $user]);
             }
             else
             {

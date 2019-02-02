@@ -17,4 +17,9 @@ class PageController extends Controller
     {
         return $this->view("pages/home.html");
     }
+
+    public function goBackHomeAction()
+    {
+        return $this->view("pages/not_found.html");
+    }
 }

@@ -199,6 +199,9 @@ abstract class Model
 		$table_fields = $q->fetchAll(PDO::FETCH_COLUMN);
 		
     	list($columns, $values) = $this->prepareStmtForAdding($table_fields, $data);
+        print_r($columns);
+        print_r($values);
+        die();
 
     	$stmt = $db->prepare("INSERT INTO $this->table $columns VALUES $values");
     	$stmt->execute();
