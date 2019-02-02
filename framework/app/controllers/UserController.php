@@ -16,12 +16,6 @@ class UserController extends Controller
         return $this->view('user/show.html', ["user" => $user]);
     }
 
-    public function goToStore($id)
-    {
-        $user = (new User)->get($id);
-        return $this->view('user/user_store.html', ["user" => $user]);
-    }
-
     public function loginAction()
     {   
         $admin = new User();
@@ -46,7 +40,8 @@ class UserController extends Controller
 
     public function signupAction()
     {   
-        return $this->view('user/signup.html');
+        $error = "";
+        return $this->view('user/signup.html', ["error" => $error]);
     }
     
     public function signupDoneAction()
@@ -56,15 +51,17 @@ class UserController extends Controller
             $email = $_GET['email'];
             $username = $_GET['username'];
             $password = $_GET['pass'];
-            $result = $admin->new(array($email, $password, $username));
-            if ($result !== false)
-            {
-                $user = (new User)->get($result);
-                return $this->view('user/show.html', ["user" => $user]);
+            if($admin->findIfAlreadyExists(array($email, $password, $username)) == false){
+                if($admin->new(array($email, $password, $username)) == false){
+                    return $this->view('pages/home.html');
+                }
+                else{
+                    echo 'error';
+                }
             }
-            else
-            {
-                return $this->view('user/unassigned_user.html');
+            else {
+                $error = "Utilizator deja existent";
+                return $this->view('user/signup.html', ["error" => $error]);
             }
         } catch(Throwable $e){}
     }

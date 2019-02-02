@@ -1,0 +1,17 @@
+{% set pageTitle="Stean.com" %}
+{% extends "layout.html" %}
+{% block head %}
+    {{parent()}}
+{% endblock %}
+{% block content %}
+{% for game in store %}
+    <h1>Game {{game.GameName}}</h1>
+    <ul>
+        <li>Price: {{game.GamePrice}}</li>
+        <li>Publisher: {{game.GamePublisher}}</li>
+        <form action="/buygame/{{index}}/{{game.ID}}" method="get">
+            <button type="submit">Buy</button>
+        </form>
+    </ul>
+{% endfor %}
+{% endblock %}

@@ -5,9 +5,10 @@ use PDO;
 use PDOException;
 use App\Config;
 
-abstract class Model
+abstract class GameModel
 {
     protected $table;
+    protected $userGamesTable;
 
     public function newDbCon($resultAsArray = false)
     {
@@ -34,11 +35,11 @@ abstract class Model
             throw new PDOException($e->getMessage(), (int)$e->getCode());
         }
     }
-
+    
     /**
      *Return all data from table
      */
-    public function getAll(): array
+    public function getAllGames(): array
     {
         $db = $this->newDbCon();
         $stmt = $db->query("SELECT * from $this->table");
@@ -46,6 +47,23 @@ abstract class Model
         return $stmt->fetchAll();
     }
 
+    /**
+     *Buy game
+     */
+    public function buyGame(array $data): int
+	{
+        //updated
+		$db = $this->newDbCon();
+		$q = $db->prepare("DESCRIBE $this->userGamesTable");
+		$q->execute();
+        $table_fields = $q->fetchAll(PDO::FETCH_COLUMN);
+		
+        list($columns, $values) = $this->prepareStmtForAdding($table_fields, $data);
+        $stmt = $db->query("INSERT INTO $this->userGamesTable $columns VALUES $values");
+
+    	return $stmt->fetch();
+    }
+    
     /**
      *Return data with specified id/index
      */
@@ -87,34 +105,16 @@ abstract class Model
         return [$columns, $values];
     }
 
-    /**
-     *Find data with values
-     * if $like is not set it will search using the = sql operator
-     * if $like is set it will search using the LIKE sql operator
-     *
-     * return false or an object
-     */
-    public function find(array $data, bool $like = false)
-    {
-        list($columns, $values) = $this->prepareDataForSearchStmt($data, $like);
-
-        $db = $this->newDbCon();
-        $stmt = $db->prepare("SELECT * from $this->table where $columns");
-        $stmt->execute($values);
-
-        return $stmt->fetch();
-    }
-
-    public function findIfAlreadyExists(array $data)
+    public function findIfAlreadyBought(array $data)
     {
         //updated
 		$db = $this->newDbCon();
-		$q = $db->prepare("DESCRIBE $this->table");
+		$q = $db->prepare("DESCRIBE $this->userGamesTable");
 		$q->execute();
         $table_fields = $q->fetchAll(PDO::FETCH_COLUMN);
 		
         list($columns, $values) = $this->prepareStmtForAdding($table_fields, $data);
-        $stmt = $db->query("SELECT * FROM $this->table WHERE $columns = $values");
+        $stmt = $db->query("SELECT * FROM $this->userGamesTable WHERE $columns = $values");
         
     	return $stmt->fetch();
     }
@@ -161,7 +161,6 @@ abstract class Model
     	$i = 0;
 		
 		// delete from table names ID
-		unset($table_names[0]);
 
 		// load from data the searched user abut it's reversed.
     	foreach($data as $key => $value) {
@@ -211,9 +210,10 @@ abstract class Model
 		
     	list($columns, $values) = $this->prepareStmtForAdding($table_fields, $data);
 
-    	$stmt = $db->query("INSERT INTO $this->table $columns VALUES $values");
+    	$stmt = $db->prepare("INSERT INTO $this->table $columns VALUES $values");
+    	$stmt->execute();
 
-    	return $stmt->fetch();
+    	return $db->lastInsertId();
 	}
 
     /**
