@@ -4,17 +4,133 @@
     {{parent()}}
 {% endblock %}
 {% block content %}
+<style>
+    body{
+        padding-top: 120px;
+        text-align: center;
+        font-family: monaco, monospace;
+        background: url(/resources/main_bkg.jpg) 50%;
+        background-size: cover;
+    }
+    h1{
+        font-size: 75px;
+        color: aliceblue;
+    }
+    button[class="storeBtn"]{
+        position: absolute;
+        background-color: aliceblue;
+        top: 55%;
+        left: 30%;
+        height: 30px;
+        width: 180px;
+        font-family: monaco, monospace;
+        text-align: center;
+        font-size: 20;
+        border-color: #191970;
+        border-radius: 10px;
+        color: #191970;
+        transition: all 0.5s;
+    }
+    button[class="storeBtn"] span{
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+    button[class="storeBtn"] span::after{
+        content: '$';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+    button[class="storeBtn"]:hover span{
+        padding-right: 25px; 
+    }
+    button[class="storeBtn"]:hover span::after{
+        right:0;
+        opacity: 1;
+    }
+    button[class="profileBtn"]{
+        position: absolute;
+        background-color: aliceblue;
+        top: 55%;
+        left: 60%;
+        height: 30px;
+        width: 200px;
+        font-family: monaco, monospace;
+        text-align: center;
+        font-size: 20;
+        border-color: #191970;
+        border-radius: 10px;
+        color: #191970;
+        transition: all 0.5s;
+    }
+    button[class="profileBtn"] span{
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+    button[class="profileBtn"] span::after{
+        content: '\25b6';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+    button[class="profileBtn"]:hover span{
+        padding-right: 25px; 
+    }
+    button[class="profileBtn"]:hover span::after{
+        right:0;
+        opacity: 1;
+    }
+    button[class="walletBtn"]{
+        position: absolute;
+        background-color: aliceblue;
+        top: 55%;
+        left: 44%;
+        height: 30px;
+        width: 200px;
+        font-family: monaco, monospace;
+        text-align: center;
+        font-size: 20;
+        border-color: #191970;
+        border-radius: 10px;
+        color: #191970;
+        transition: all 0.5s;
+    }
+    button[class="walletBtn"] span{
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+    button[class="walletBtn"] span::after{
+        content: '+';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+    button[class="walletBtn"]:hover span{
+        padding-right: 25px; 
+    }
+    button[class="walletBtn"]:hover span::after{
+        right:0;
+        opacity: 1;
+    }
+</style>
 <h1>Hi {{user.Username}}!</h1>
 <form action="/user/go-to-store/{{user.ID}}" method="post">
-    <button type="submit">Go to store</button>
+    <button type="submit" class="storeBtn"><span>Go to store</span></button>
 </form>
-
 <form action="/user/go-to-profile/{{user.ID}}" method="post">
-    <button type="submit">Go to profile</button>
+    <button type="submit" class="profileBtn"><span>Go to profile</span></button>
 </form>
-
 <form action="/user/add-wallet/{{user.ID}}" method="post">
-    <button type="submit">Add funds</button>
+    <button type="submit" class="walletBtn"><span>Add funds</span></button>
 </form>
 {% endblock %}
 
