@@ -7,6 +7,8 @@ $routes = [
     '/user/go-to-store' => ['controller' => 'GameController', 'action' => 'goToStore'],
     '/user/go-to-profile' => ['controller' => 'UserController', 'action' => 'showAction'],
     '/user/edit-profile' => ['controller' => 'UserController', 'action' => 'showAction', 'guard' => 'Authenticated'],
+    '/user/sumadd' => ['controller' => 'UserController', 'action' => 'addFundsDone'],
+    '/user/add-wallet' => ['controller' => 'UserController', 'action' => 'addFunds'],
     '/' => ['controller' => 'PageController', 'action' => 'homeAction'],
     '/buygame/' => ['controller' => 'GameController', 'action' => 'buyGameAction'],
     '/page/about-us' => ['controller' => 'PageController', 'action' => 'aboutUsAction'],

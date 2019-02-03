@@ -8,8 +8,13 @@
 <form action="/user/go-to-store/{{user.ID}}" method="post">
     <button type="submit">Go to store</button>
 </form>
+
 <form action="/user/go-to-profile/{{user.ID}}" method="post">
     <button type="submit">Go to profile</button>
+</form>
+
+<form action="/user/add-wallet/{{user.ID}}" method="post">
+    <button type="submit">Add funds</button>
 </form>
 {% endblock %}
 

@@ -105,6 +105,15 @@ abstract class Model
         return $stmt->fetch();
     }
 
+    public function addFunds($userID, $value)
+    {
+        $db = $this->newDbCon();
+        
+        $stmt = $db->query("UPDATE $this->table SET Wallet = $value WHERE ID = $userID");
+
+    	return $stmt->fetch();
+    }
+
     public function findIfAlreadyExists(array $data)
     {
         //updated

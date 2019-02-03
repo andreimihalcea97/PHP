@@ -1,0 +1,13 @@
+{% set pageTitle="Stean.com" %}
+{% extends "layout.html" %}
+{% block head %}
+    {{parent()}}
+{% endblock %}
+{% block content %}
+<h1>Add funds to account:  {{user.Username}}</h1>
+
+<form action="/user/sumadd/{{user.ID}}/" method="get">
+    Suma dorita: <input type="number" name = "sum" placeholder="0 RON"><br/>
+    <button type="submit">Add funds</button>
+</form>
+{% endblock %}

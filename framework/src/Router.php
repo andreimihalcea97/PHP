@@ -37,11 +37,25 @@ class Router
             $controllerObj->{$action}();
             return;
         }
-
+        
         if(preg_match('/buygame/', $this->url))
         {
             list($controllerObj, $action, $userID, $gameID) = $this->getControllerName('buygame');
             $controllerObj->{$action}($userID, $gameID);
+            return;
+        }
+
+        if(preg_match('/add-wallet/', $this->url))
+        {
+            list($controllerObj, $action, $userID) = $this->getControllerName('addfunds');
+            $controllerObj->{$action}($userID);
+            return;
+        }
+
+        if(preg_match('/sumadd/', $this->url))
+        {
+            list($controllerObj, $action, $sum, $userID) = $this->getControllerName('addfundsdone');
+            $controllerObj->{$action}($userID, $sum);
             return;
         }
 
@@ -120,6 +134,42 @@ class Router
             $controllerName = 'App\\Controllers\\' . $controller;
             $controllerObj = new $controllerName;
             return array($controllerObj, $action, $userID, $gameID);
+        }
+
+        if($flag == "addfunds")
+        {   
+            # get userID
+            $controllerUrl = str_replace("?", "", $this->url);
+            $controllerUrl = explode('/', $controllerUrl);
+            $userID = end($controllerUrl);
+            # get controllerUrl
+            $controllerUrl = explode('/', $this->url, -1);
+            # implode back the query string
+            $controllerUrl = implode('/', $controllerUrl);
+            $controller = $this->routes[$controllerUrl]['controller'];
+            $action = $this->routes[$controllerUrl]['action'];
+            $controllerName = 'App\\Controllers\\' . $controller;
+            $controllerObj = new $controllerName;
+            return array($controllerObj, $action, $userID);
+        }
+
+        if($flag == "addfundsdone")
+        {   
+            # get sum
+            $controllerUrl = explode("=", $this->url);
+            $sum = end($controllerUrl);
+            # get userID
+            $controllerUrl = explode("/", $this->url);
+            $userID = $controllerUrl[3];
+            # get controllerUrl
+            $controllerUrl = explode('/', $this->url, -2);
+            # implode back the query string
+            $controllerUrl = implode('/', $controllerUrl);
+            $controller = $this->routes[$controllerUrl]['controller'];
+            $action = $this->routes[$controllerUrl]['action'];
+            $controllerName = 'App\\Controllers\\' . $controller;
+            $controllerObj = new $controllerName;
+            return array($controllerObj, $action, $sum, $userID);
         }
 
         if($flag == "home")

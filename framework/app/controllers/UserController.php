@@ -65,4 +65,25 @@ class UserController extends Controller
             }
         } catch(Throwable $e){}
     }
+
+    public function addFunds($userID)
+    {   
+        $admin = new User();
+        $current_user = $admin->get($userID);
+        return $this->view('user/add_funds.html', ["user" => $current_user]);
+    }
+
+    public function addFundsDone($userID, $sum)
+    {   
+        $admin = new User();
+        try{
+            
+            if($admin->addFunds($userID, $sum) == false){
+                echo 'funds added';
+            }
+            else {
+                echo 'error';
+            }
+        } catch(Throwable $e){}
+    }
 }
