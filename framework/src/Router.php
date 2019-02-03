@@ -2,10 +2,6 @@
 
 namespace Framework;
 
-// use \App\Controllers\HomeController;
-//use App\Controllers\PageController;
-//use App\Controllers\UserController;
-
 class Router
 {
     private $routes;
@@ -25,6 +21,7 @@ class Router
 
     public function checkUrl():void{
         
+        // debug url
         echo $this->url;
 
         if(preg_match('/login/', $this->url))
@@ -70,7 +67,6 @@ class Router
             return;
         }
 
-        echo "404 Not Found";
         list($controllerObj, $action) = $this->getControllerName("home");
         $controllerObj->{$action}();
     }
@@ -116,7 +112,6 @@ class Router
             # get ut the index of the query string
             $controllerUrl = str_replace("?", "", $this->url);
             $controllerUrl = explode('/', $controllerUrl);
-            print_r($controllerUrl);
             $userID = $controllerUrl[2];
             $gameID = $controllerUrl[3];
             $controllerUrl = "/" . $controllerUrl[1] . "/";
@@ -129,7 +124,6 @@ class Router
 
         if($flag == "home")
         {
-            echo $this->url;
             $controllerUrl = explode('?', $this->url);
             $controller = $this->routes["/home/"]['controller'];
             $action = $this->routes["/home/"]['action'];

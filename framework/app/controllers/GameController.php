@@ -5,7 +5,7 @@ use Framework\Controller;
 use App\Models\Game;
 
 /**
- * Class GameController
+ * Class GameStoreController
  */
 class GameController extends Controller
 {

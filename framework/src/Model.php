@@ -142,17 +142,6 @@ abstract class Model
     /**
      * Insert new data in table
      */
-    // public function new(array $data): int
-    // {
-    //     list($columns, $values) = $this->prepareStmt($data);
-
-    //     $db = $this->newDbCon();
-    //     $stmt = $db->prepare('INSERT INTO ' . $this->table . ' SET ' . $columns);
-
-    //     $stmt->execute($values);
-
-    //     return $db->lastInsertId();
-    // }
     private function prepareStmtForAdding(array $table_names, array $data): array
 	{
 		//updated
