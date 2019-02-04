@@ -4,10 +4,53 @@
     {{parent()}}
 {% endblock %}
 {% block content %}
+<style>
+    body{
+        padding-top: 120px;
+        text-align: center;
+        font-family: monaco, monospace;
+        background: url(/resources/main_bkg.jpg) 50%;
+        background-size: cover;
+    }
+        button[class="addBtn"]{
+            cursor: pointer;
+            position: absolute;
+            background-color: aliceblue;
+            height: 40px;
+            width: 120px;
+            font-family: monaco, monospace;
+            text-align: center;
+            font-size: 20;
+            border-color: #191970;
+            border-radius: 10px;
+            color: rgb(27, 128, 7);
+            left:60%;
+        }
+        button[class="addBtn"]:hover{
+            color: aliceblue;
+            background-color: rgb(27, 128, 7);
+        }
+        button[class="addBtn"]:hover span{
+            display:none;
+        }
+        button[class="addBtn"]:hover::before{
+            content: '+';
+        }
+        h1{
+            font-size: 40px;
+            color: aliceblue;
+        }
+        input[class="sumInput"]{
+            background-color: aliceblue;
+            position: absolute;
+            left: 32%;
+            margin-top: 20px;
+        }
+</style>
 <h1>Add funds to account:  {{user.Username}}</h1>
 
 <form action="/user/sumadd/{{user.ID}}/" method="get">
-    Suma dorita: <input type="number" name = "sum" placeholder="0 RON"><br/>
-    <button type="submit">Add funds</button>
+    Suma dorita: <input type="number" name = "sum" placeholder="0 RON" class="sumInput"><br/>
+    <button type="submit" class="addBtn"><span>Add funds</span></button>
 </form>
 {% endblock %}
