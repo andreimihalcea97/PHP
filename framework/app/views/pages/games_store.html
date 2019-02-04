@@ -4,13 +4,53 @@
     {{parent()}}
 {% endblock %}
 {% block content %}
+<style>
+        body{
+            text-align: left;
+            font-family: monaco, monospace;
+            background: url(/resources/main_bkg.jpg) 50%;
+            background-size: cover;
+        }
+        h1{
+            padding-top: 30px;
+            font-size: 30px;
+            color: aliceblue;
+        }
+        li{
+            font-size: 15px;
+            color: aliceblue;
+        }
+        button[class="buyBtn"]{
+            cursor: pointer;
+            position: absolute;
+            background-color: aliceblue;
+            height: 40px;
+            width: 80px;
+            font-family: monaco, monospace;
+            text-align: center;
+            font-size: 20;
+            border-color: #191970;
+            border-radius: 10px;
+            color: rgb(27, 128, 7);
+        }
+        button[class="buyBtn"]:hover{
+            color: aliceblue;
+            background-color: rgb(27, 128, 7);
+        }
+        button[class="buyBtn"]:hover span{
+            display:none;
+        }
+        button[class="buyBtn"]:hover::before{
+            content: '$';
+        }
+    </style>
 {% for game in store %}
     <h1>Game {{game.GameName}}</h1>
     <ul>
         <li>Price: {{game.GamePrice}}</li>
         <li>Publisher: {{game.GamePublisher}}</li>
         <form action="/buygame/{{index}}/{{game.ID}}" method="get">
-            <button type="submit">Buy</button>
+            <button type="submit" class="buyBtn"><span>Buy</span></button>
         </form>
     </ul>
 {% endfor %}
