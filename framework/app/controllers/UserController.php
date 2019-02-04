@@ -62,7 +62,7 @@ class UserController extends Controller
                 }
             }
             else {
-                $error = "Utilizator deja existent";
+                $error = "User already exists.";
                 return $this->view('user/signup.html', ["error" => $error]);
             }
         } catch(Throwable $e){
@@ -81,7 +81,8 @@ class UserController extends Controller
     {   
         $admin = new User();
         if($admin->addFunds($userID, $sum) == false){
-            echo 'funds added_view';
+            $confirmation = "Funds added successfully!";
+            return $this->view('user/add_funds.html', ["confirmation" => $confirmation, "user" => $userID]);
         }
         else {
             return $this->view('pages/error.html');

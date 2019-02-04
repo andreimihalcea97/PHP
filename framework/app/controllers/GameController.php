@@ -31,8 +31,8 @@ class GameController extends Controller
         {
             $availability = $admin->checkWallet($userIndex, $gameValue);
             if($availability == false){
-                echo 'not enough money to account_view';
-                //redirect the user to add funds? or store?
+                $error = 'Not enough money in your wallet. You can add more anytime!';
+                return $this->view('user/add_funds.html', ["user" => $userIndex, "error" => $error]);
             }
             else{
                 if ($addGame->buyGame(array($userIndex, $gameIndex)) == false)
@@ -40,7 +40,9 @@ class GameController extends Controller
                     $boughtGame = $addGame->get($gameIndex);
                     $price = $boughtGame->GamePrice;
                     $admin->subtractFunds($userIndex, $price);
-                    echo 'game added to account_view';
+                    $user = (new User)->get($userIndex);
+                    $games = (new Game)->getGamesForUser($userIndex);
+                    return $this->view('user/show.html', ["user" => $user, "games" => $games]);
                 }
                 else
                 {
