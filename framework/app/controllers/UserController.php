@@ -12,7 +12,6 @@ class UserController extends Controller
     public function showAction($id)
     {
         $user = (new User)->get($id);
-
         return $this->view('user/show.html', ["user" => $user]);
     }
 
@@ -34,7 +33,9 @@ class UserController extends Controller
             {
                 return $this->view('user/unassigned_user.html');
             }
-        } catch(Throwable $e){}
+        } catch(Throwable $e){
+            return $this->view('pages/error.html');
+        }
     }
 
     public function signupAction()
@@ -55,14 +56,16 @@ class UserController extends Controller
                     return $this->view('pages/home.html');
                 }
                 else{
-                    echo 'error';
+                    return $this->view('pages/error.html');
                 }
             }
             else {
                 $error = "Utilizator deja existent";
                 return $this->view('user/signup.html', ["error" => $error]);
             }
-        } catch(Throwable $e){}
+        } catch(Throwable $e){
+            return $this->view('pages/error.html');
+        }
     }
 
     public function addFunds($userID)
@@ -76,13 +79,14 @@ class UserController extends Controller
     {   
         $admin = new User();
         try{
-            
             if($admin->addFunds($userID, $sum) == false){
-                echo 'funds added';
+                echo 'funds added_view';
             }
             else {
-                echo 'error';
+                echo 'cant add funds_error_view';
             }
-        } catch(Throwable $e){}
+        } catch(Throwable $e){
+            return $this->view('pages/error.html');
+        }
     }
 }

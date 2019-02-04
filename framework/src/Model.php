@@ -57,6 +57,16 @@ abstract class Model
         return $stmt->fetch();
     }
 
+    public function checkWallet($userID, $gameValue)
+    {
+        $user = $this->get($userID);
+        $availableBalance = $user->Wallet;
+        if($availableBalance >= $gameValue){
+            return true;
+        }
+        else return false;
+    }
+
     public function addFunds($userID, $value)
     {
         $db = $this->newDbCon();
