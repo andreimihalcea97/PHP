@@ -26,23 +26,20 @@ class GameController extends Controller
         $addGame = new Game();
         $gameValue = $addGame->get($gameIndex)->GamePrice;
         $admin = new User();
-        if ($addGame->findIfAlreadyBought(array($gameIndex, $userIndex)) == false)
+        if ($addGame->findIfAlreadyBought(array($userIndex, $gameIndex)) == false)
         {
             $availability = $admin->checkWallet($userIndex, $gameValue);
             if($availability == false){
                 echo 'not enough money to account_view';
+                //redirect the user to add funds? or store?
             }
             else{
-                try{
-                    if ($addGame->buyGame(array($gameIndex, $userIndex)) == false)
-                    {
-                        echo 'game added to account_view';
-                    }
-                    else
-                    {
-                        echo 'cant add game to account_error_view';
-                    }
-                } catch(Throwable $e){
+                if ($addGame->buyGame(array($userIndex, $gameIndex)) == false)
+                {
+                    echo 'game added to account_view';
+                }
+                else
+                {
                     return $this->view('pages/error.html');
                 }
             }

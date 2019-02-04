@@ -20,6 +20,6 @@ class PageController extends Controller
 
     public function goBackHomeAction()
     {
-        return $this->view("pages/not_found.html");
+        return $this->view("pages/404.html");
     }
 }

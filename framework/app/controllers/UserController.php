@@ -78,14 +78,10 @@ class UserController extends Controller
     public function addFundsDone($userID, $sum)
     {   
         $admin = new User();
-        try{
-            if($admin->addFunds($userID, $sum) == false){
-                echo 'funds added_view';
-            }
-            else {
-                echo 'cant add funds_error_view';
-            }
-        } catch(Throwable $e){
+        if($admin->addFunds($userID, $sum) == false){
+            echo 'funds added_view';
+        }
+        else {
             return $this->view('pages/error.html');
         }
     }

@@ -48,23 +48,6 @@ abstract class GameModel
     }
 
     /**
-     *Buy game
-     */
-    public function buyGame(array $data): int
-	{
-        //updated
-		$db = $this->newDbCon();
-		$q = $db->prepare("DESCRIBE $this->userGamesTable");
-		$q->execute();
-        $table_fields = $q->fetchAll(PDO::FETCH_COLUMN);
-		
-        list($columns, $values) = $this->prepareStmtForAdding($table_fields, $data);
-        $stmt = $db->query("INSERT INTO $this->userGamesTable $columns VALUES $values");
-
-    	return $stmt->fetch();
-    }
-    
-    /**
      *Return data with specified id/index
      */
     public function get($id)
@@ -74,65 +57,50 @@ abstract class GameModel
         $stmt->execute([$id]);
         return $stmt->fetch();
     }
+    
+    protected function prepareValuesForQuery(array $values)
+    {
+        $string = '(';
+        $i = 1;
+        foreach ($values as $key => $value) {
+            $string = $string . "'" . $value . "'";
 
+            if($i < (count($values))) {
+                $string .= ", ";
+            }
+
+            $i++;
+        }
+        $string = $string . ')';
+        return $string;
+    }
+
+    /**
+     *Buy game
+     */
+    public function buyGame(array $data): int
+	{
+        //updated
+		$db = $this->newDbCon();
+        $values = $this->prepareValuesForQuery($data);
+		$stmt = "INSERT INTO $this->userGamesTable (IDUser, IDGame) VALUES $values";
+
+        $result = $db->query($stmt);
+
+    	return $result->fetch();
+    }
+    
+    
     // find if the user already bouht the game
     public function findIfAlreadyBought(array $data)
     {
         //updated
-		$db = $this->newDbCon();
-		$q = $db->prepare("DESCRIBE $this->userGamesTable");
-		$q->execute();
-        $table_fields = $q->fetchAll(PDO::FETCH_COLUMN);
-		
-        list($columns, $values) = $this->prepareStmtForAdding($table_fields, $data);
-        $stmt = $db->query("SELECT * FROM $this->userGamesTable WHERE $columns = $values");
+        $db = $this->newDbCon();
+        $values = $this->prepareValuesForQuery($data);
+        $stmt = "SELECT * FROM $this->userGamesTable WHERE (IDUser, IDGame) = $values";
         
-    	return $stmt->fetch();
-    }
-
-    // prepare database for adding a game
-    private function prepareStmtForAdding(array $table_names, array $data): array
-	{
-		//updated
-    	$columns = ' (';
-    	$values = [];
-    	$i = 0;
-
-		// load from data the searched user abut it's reversed.
-    	foreach($data as $key => $value) {
-			
-			//echo $value;
-        	$values[]= $value;
-		}
-
-		// bring it to normal
-		$values = array_reverse($values);
-		$values_string = '(';
-
-		foreach($values as $key => $value) {
-			
-			$values_string .= "'" . $value . "'";
-			if($i < (count($data) - 1)) {
-				$values_string .= ", ";
-			}
-			$i++;
-		}
-		$values_string .= ")";
-
-		$i = 0;
-
-		// create sql query
-		foreach($table_names as $key => $value) {
-			//. "$values[$i]" . "'";
-			$columns .= $value;
-			if($i < (count($data) - 1)) {
-					$columns .= ", ";
-				}
-			$i++;
-		}
-		$columns .= ")";
-		
-		// return query items
-    	return [$columns, $values_string];
+        $result = $db->query($stmt);
+        
+    	return $result->fetch();
     }
 }

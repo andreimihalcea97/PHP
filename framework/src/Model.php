@@ -70,9 +70,12 @@ abstract class Model
     public function addFunds($userID, $value)
     {
         $db = $this->newDbCon();
-        
-        $stmt = $db->prepare("UPDATE $this->table SET wallet=? WHERE id=?");
-        $stmt->execute([$value, $userID]);
+        $user = $this->get($userID);
+        $walletValue = $user->Wallet;
+        $walletValue = $value + $walletValue;
+
+        $stmt = $db->prepare("UPDATE $this->table SET wallet=? WHERE $this->table . id=?");
+        $stmt->execute([$walletValue, $userID]);
 
     	return $stmt->fetch();
     }
@@ -93,6 +96,7 @@ abstract class Model
         $string = $string . ')';
         return $string;
     }
+    
     public function findIfAlreadyExists(array $data)
     {
         //updated
