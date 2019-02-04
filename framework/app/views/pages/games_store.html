@@ -48,8 +48,39 @@
         button[class="buyBtn"]:hover::before{
             content: '$';
         }
+        button[class="backBtn"]{
+        cursor: pointer;
+        position: relative;
+        background-color: aliceblue;
+        height: 50px;
+        width: 120px;
+        font-family: monaco, monospace;
+        text-align: center;
+        font-size: 20;
+        border-color: #191970;
+        border-radius: 10px;
+        color: rgb(27, 128, 7);
+        bottom: 800px;
+        left: 550px;
+        }
+        button[class="backBtn"]:hover{
+            color: aliceblue;
+            background-color: rgb(27, 128, 7);
+        }
+        button[class="backBtn"]:hover span{
+            display:none;
+        }
+        button[class="backBtn"]:hover::before{
+            content: 'go back';
+        }
         td[class="error"]{
             color: red;
+            vertical-align: center;
+            padding: 15px;
+            white-space: nowrap;
+        }
+        td[class="purchased"]{
+            color: green;
             vertical-align: center;
             padding: 15px;
             white-space: nowrap;
@@ -69,16 +100,6 @@
     <h2>Stean Store</h2>
 {% for game in store %}
     <h1>{{game.GameName}}</h1>
-    <!-- <ul>
-        <li>Price: {{game.GamePrice}}</li>
-        <li>Publisher: {{game.GamePublisher}}</li>
-        {% if game.ID == gameOwnedIndex %}
-            <p>{{error}}</p>
-        {% endif %}
-        <form action="/buygame/{{index}}/{{game.ID}}" method="get">
-            <button type="submit" class="buyBtn"><span>Buy</span></button>
-        </form>
-    </ul> -->
     <table style="width: 60%">
         <tr>
             <td>
@@ -100,15 +121,21 @@
                 <td class="error">{{error}}</td>
             </tr>
         {% endif %}
+        {% if game.ID == gamePurchasedIndex %}
+            <tr>
+                <td class="purchased">{{error}}</td>
+            </tr>
+        {% endif %}
         <tr>
             <td>
-            <form action="/buygame/{{index}}/{{game.ID}}" method="get">
+            <form action="/buygame/{{index}}/{{game.ID}}" method="POST">
                 <button type="submit" class="buyBtn"><span>Buy</span></button>
             </form>
             </td>
         </tr>
     </table>
-
-    <!-- <img src="{{game.imgPath}}"/> -->
 {% endfor %}
+<form action="/login/{{back_menu_link}}" method="post">
+    <button type="submit" class="backBtn"><span>Back to menu</span></button>
+</form>
 {% endblock %}

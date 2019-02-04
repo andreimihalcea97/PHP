@@ -15,8 +15,13 @@ class GameController extends Controller
         try{
             $index = $userIndex;
             $store = (new Game)->getAllGames();
+            $user = (new User)->get($userIndex);
+
+            $current_user_email = str_replace("@", "%40", $user->EMail);
+            $back_to_menu = "?email=" . $current_user_email . "&pass=" . $user->Password;
             $error = "";
-            return $this->view('pages/games_store.html', ["store" => $store, "index" => $index, "error" => $error]);
+
+            return $this->view('pages/games_store.html', ["store" => $store, "index" => $index, "error" => $error, "back_menu_link" => $back_to_menu]);
         } catch(Throwable $e){
             return $this->view('pages/error.html');
         }
@@ -41,8 +46,12 @@ class GameController extends Controller
                     $price = $boughtGame->GamePrice;
                     $admin->subtractFunds($userIndex, $price);
                     $user = (new User)->get($userIndex);
-                    $games = (new Game)->getGamesForUser($userIndex);
-                    return $this->view('user/show.html', ["user" => $user, "games" => $games]);
+                    $store = (new Game)->getAllGames();
+                    $current_user_email = str_replace("@", "%40", $user->EMail);
+                    $back_to_menu = "?email=" . $current_user_email . "&pass=" . $user->Password;
+                    $error = "Game purchased.";
+
+                    return $this->view('pages/games_store.html', ["store" => $store, "index" => $userIndex, "error" => $error, "back_menu_link" => $back_to_menu, "gamePurchasedIndex" => $gameIndex]);
                 }
                 else
                 {
@@ -53,8 +62,13 @@ class GameController extends Controller
         else
         {
             $store = (new Game)->getAllGames();
+            $user = (new User)->get($userIndex);
+
+            $current_user_email = str_replace("@", "%40", $user->EMail);
+            $back_to_menu = "?email=" . $current_user_email . "&pass=" . $user->Password;
             $error = "Game already bought!";
-            return $this->view('pages/games_store.html', ["store" => $store, "index" => $userIndex, "error" => $error, "gameOwnedIndex" => $gameIndex]);
+
+            return $this->view('pages/games_store.html', ["store" => $store, "index" => $userIndex, "error" => $error, "gameOwnedIndex" => $gameIndex, "back_menu_link" => $back_to_menu]);
         }
     }
 }
