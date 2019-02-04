@@ -4,13 +4,34 @@
     {{parent()}}
 {% endblock %}
 {% block content %}
+<style>
+    body {
+        padding-top: 80px;
+        text-align: center;
+        font-family: monaco, monospace;
+        background: url(/resources/main_bkg.jpg) 50%;
+        background-size: cover;
+    }
+    h1{
+        font-size: 40px;
+        color: aliceblue;
+    }
+    h2{
+        font-size: 30px;
+        color: aliceblue;
+    }
+    li{
+        font-size: 20px;
+        color: aliceblue;
+    }
+</style>
 <h1>User {{user.Username}}</h1>
 <ul>
     <li>Email: {{user.EMail}}</li>
 </ul>
 <ul>
     {% for game in games %}
-    <h1>Game {{game.GameName}}</h1>
+    <h2>Game {{game.GameName}}</h2>
     <ul>
         <li>Publisher: {{game.GamePublisher}}</li>
     </ul>

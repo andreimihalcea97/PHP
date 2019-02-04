@@ -4,12 +4,66 @@
     {{parent()}}
 {% endblock %}
 {% block content %}
+<style>
+    body {
+        padding-top: 80px;
+        text-align: center;
+        font-family: monaco, monospace;
+        background: url(/resources/main_bkg.jpg) 50%;
+        background-size: cover;
+    }
+    p{
+        font-size: 30px;
+        color: red;
+    }
+    button[class="signupBtn"]{
+            cursor: pointer;
+            position: static;
+            background-color: aliceblue;
+            top: 60%;
+            left: 45%;
+            height: 30px;
+            width: 150px;
+            font-family: monaco, monospace;
+            text-align: center;
+            font-size: 20;
+            border-color: #191970;
+            border-radius: 10px;
+            color: #191970;
+        }
+        button[class=signupBtn]:hover{
+            background-color: #191970;
+            color: aliceblue;
+        }
+        button[class="loginBtn"]{
+            cursor: pointer;
+            position: static;
+            background-color: aliceblue;
+            top: 60%;
+            left: 45%;
+            height: 30px;
+            width: 150px;
+            font-family: monaco, monospace;
+            text-align: center;
+            font-size: 20;
+            border-color: #191970;
+            border-radius: 10px;
+            color: #191970;
+        }
+        button[class=loginBtn]:hover{
+            background-color: #191970;
+            color: aliceblue;
+        }
+</style>
+    <p>
+        Incorrect username and/or password!
+    </p>
     <u1>
         <form action="/signup/" method="post">
-            <button type="submit">Sign up</button>
+            <button type="submit" class="signupBtn">Sign up</button>
         </form>
         <form action="/" method="post">
-            <button type="submit">Log in again</button>
+            <button type="submit" class="loginBtn">Log in again</button>
         </form>
     </u1>
 {% endblock %}
