@@ -22,10 +22,9 @@ class UserController extends Controller
         try{
             $email = $_GET['email'];
             $password = $_GET['pass'];
-            $db = $admin->newDbCon();
-            $sth = $db->prepare('SELECT ID FROM registeredusers WHERE EMail = :email AND Password = :password');
-            $sth->execute(array(':email' => $email, ':password' => $password));
-            $result = $sth->fetch();
+            $data = array($email, $password);
+            $result = $admin->logIn($data);
+            
             if ($result !== false)
             {
                 $user = (new User)->get($result->ID);
