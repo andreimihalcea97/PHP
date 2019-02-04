@@ -17,6 +17,7 @@
         color: aliceblue;
     }
     button[class="storeBtn"]{
+        cursor: pointer;
         position: absolute;
         background-color: aliceblue;
         top: 55%;
@@ -52,6 +53,7 @@
         opacity: 1;
     }
     button[class="profileBtn"]{
+        cursor: pointer;
         position: absolute;
         background-color: aliceblue;
         top: 55%;
@@ -87,6 +89,7 @@
         opacity: 1;
     }
     button[class="walletBtn"]{
+        cursor: pointer;
         position: absolute;
         background-color: aliceblue;
         top: 55%;
@@ -121,6 +124,13 @@
         right:0;
         opacity: 1;
     }
+    a{
+        cursor: pointer;
+        color: aliceblue;
+        position: absolute;
+        top: 5%;
+        left: 90%;
+    }
 </style>
 <h1>Hi {{user.Username}}!</h1>
 <form action="/user/go-to-store/{{user.ID}}" method="post">
@@ -132,5 +142,6 @@
 <form action="/user/add-wallet/{{user.ID}}" method="post">
     <button type="submit" class="walletBtn"><span>Add funds</span></button>
 </form>
+<a href="/">Log Out</a>
 {% endblock %}
 
