@@ -14,7 +14,7 @@
     }
         button[class="addBtn"]{
             cursor: pointer;
-            position: absolute;
+            position: relative;
             background-color: aliceblue;
             height: 40px;
             width: 120px;
@@ -24,7 +24,8 @@
             border-color: #191970;
             border-radius: 10px;
             color: rgb(27, 128, 7);
-            left:60%;
+            bottom: 40px;
+            left: 150px;
         }
         button[class="addBtn"]:hover{
             color: aliceblue;
@@ -42,9 +43,9 @@
         }
         input[class="sumInput"]{
             background-color: aliceblue;
-            position: absolute;
-            left: 32%;
-            margin-top: 20px;
+            position: relative;
+            margin-top: 5px;
+            right: 180px;
         }
 </style>
 <h1>Add funds to account:  {{user.Username}}</h1>
