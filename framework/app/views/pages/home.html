@@ -24,7 +24,7 @@
         }
         button[class="loginBtn"]{
             cursor: pointer;
-            position: static;
+            position: absolute;
             background-color: aliceblue;
             top: 55%;
             left: 45%;
@@ -43,7 +43,7 @@
         }
         button[class="aboutBtn"]{
             cursor: pointer;
-            position: static;
+            position: absolute;
             background-color: aliceblue;
             top: 60%;
             left: 45%;
@@ -60,16 +60,33 @@
             background-color: #191970;
             color: aliceblue;
         }
+        button[class="signupBtn"]{
+            cursor: pointer;
+            position: absolute;
+            background-color: aliceblue;
+            top: 65%;
+            left: 45%;
+            height: 30px;
+            width: 150px;
+            font-family: monaco, monospace;
+            text-align: center;
+            font-size: 20;
+            border-color: #191970;
+            border-radius: 10px;
+            color: #191970;
+        }
+        button[class=signupBtn]:hover{
+            background-color: #191970;
+            color: aliceblue;
+        }
     </style>
     <h1>Stean</h1>
     <u1>
-        <li>Login: 
             <form action="/login/" method="get">
                 <input type="email" name = "email" placeholder="name@email.com" class="loginTxtBox"><br/>
                 <input type="password" name = "pass" class="loginTxtBox"><br/>
                 <button type="submit" class="loginBtn">Login</button>
             </form>
-        </li>
     </u1>
 
     <u1> 
@@ -77,5 +94,11 @@
             <button type="submit" class="aboutBtn">About Us</button>
         </form>
     </u1>
+
+    <u1> 
+            <form action="/signup/" method="POST">
+                <button type="submit" class="signupBtn">Sign Up</button>
+            </form>
+        </u1>
 {% endblock %}
 
