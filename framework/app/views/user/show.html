@@ -8,5 +8,13 @@
 <ul>
     <li>Email: {{user.EMail}}</li>
 </ul>
+<ul>
+    {% for game in games %}
+    <h1>Game {{game.GameName}}</h1>
+    <ul>
+        <li>Publisher: {{game.GamePublisher}}</li>
+    </ul>
+    {% endfor %}
+</ul>
 {% endblock %}
 

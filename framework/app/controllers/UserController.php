@@ -3,6 +3,7 @@ namespace App\Controllers;
 
 use Framework\Controller;
 use App\Models\User;
+use App\Models\Game;
 
 /**
  * Class UserController
@@ -12,7 +13,8 @@ class UserController extends Controller
     public function showAction($id)
     {
         $user = (new User)->get($id);
-        return $this->view('user/show.html', ["user" => $user]);
+        $games = (new Game)->getGamesForUser($id);
+        return $this->view('user/show.html', ["user" => $user, "games" => $games]);
     }
 
     public function loginAction()

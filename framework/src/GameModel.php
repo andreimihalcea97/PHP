@@ -50,12 +50,22 @@ abstract class GameModel
     /**
      *Return data with specified id/index
      */
-    public function get($id)
+    public function getGamesForUser($userID)
     {
         $db = $this->newDbCon();
-        $stmt = $db->prepare("SELECT * from $this->table where id=?");
-        $stmt->execute([$id]);
-        return $stmt->fetch();
+        $stmt = $db->prepare("SELECT * from $this->userGamesTable WHERE IDUser=?");
+        $stmt->execute([$userID]);
+        $result = $stmt->fetchAll();
+        $gameIDs = array();
+        foreach ($result as $key => $value) {
+            array_push($gameIDs, $value->IDGame);
+        }
+
+        $gameIDs = $this->prepareValuesForQuery($gameIDs);
+        $stmt = $db->prepare("SELECT * from $this->table WHERE id IN $gameIDs");
+        $stmt->execute();
+        $result = $stmt->fetchAll();
+        return $result;
     }
     
     protected function prepareValuesForQuery(array $values)
@@ -84,7 +94,7 @@ abstract class GameModel
 		$db = $this->newDbCon();
         $values = $this->prepareValuesForQuery($data);
 		$stmt = "INSERT INTO $this->userGamesTable (IDUser, IDGame) VALUES $values";
-
+        
         $result = $db->query($stmt);
 
     	return $result->fetch();

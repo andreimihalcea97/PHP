@@ -36,6 +36,9 @@ class GameController extends Controller
             else{
                 if ($addGame->buyGame(array($userIndex, $gameIndex)) == false)
                 {
+                    $boughtGame = $addGame->get($gameIndex);
+                    $price = $boughtGame->GamePrice;
+                    $admin->subtractFunds($userIndex, $price);
                     echo 'game added to account_view';
                 }
                 else

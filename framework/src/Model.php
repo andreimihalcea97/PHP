@@ -67,6 +67,20 @@ abstract class Model
         else return false;
     }
 
+    public function subtractFunds($userID, $value)
+    {
+        $db = $this->newDbCon();
+        $user = $this->get($userID);
+        $walletValue = $user->Wallet;
+        $walletValue = $walletValue - $value;
+        if($walletValue < 0){
+            $walletValue = 0;
+        }
+
+        $stmt = $db->prepare("UPDATE $this->table SET wallet=? WHERE $this->table . id=?");
+        $stmt->execute([$walletValue, $userID]);
+    }
+
     public function addFunds($userID, $value)
     {
         $db = $this->newDbCon();
