@@ -15,7 +15,8 @@ class GameController extends Controller
         try{
             $index = $userIndex;
             $store = (new Game)->getAllGames();
-            return $this->view('pages/games_store.html', ["store" => $store, "index" => $index]);
+            $error = "";
+            return $this->view('pages/games_store.html', ["store" => $store, "index" => $index, "error" => $error]);
         } catch(Throwable $e){
             return $this->view('pages/error.html');
         }
@@ -49,7 +50,9 @@ class GameController extends Controller
         }
         else
         {
-           echo 'game already bought_view';
+            $store = (new Game)->getAllGames();
+            $error = "Game already bought!";
+            return $this->view('pages/games_store.html', ["store" => $store, "index" => $userIndex, "error" => $error, "gameOwnedIndex" => $gameIndex]);
         }
     }
 }

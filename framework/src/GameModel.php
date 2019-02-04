@@ -47,6 +47,14 @@ abstract class GameModel
         return $stmt->fetchAll();
     }
 
+    public function get($id)
+    {
+        $db = $this->newDbCon();
+        $stmt = $db->prepare("SELECT * from $this->table where id=?");
+        $stmt->execute([$id]);
+        return $stmt->fetch();
+    }
+    
     /**
      *Return data with specified id/index
      */

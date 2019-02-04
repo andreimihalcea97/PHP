@@ -117,7 +117,7 @@ abstract class Model
 		$db = $this->newDbCon();
         $values = $this->prepareValuesForQuery($data);
         
-        $stmt = "SELECT * FROM $this->table WHERE (EMail, Username, Password) = $values";
+        $stmt = "SELECT * FROM $this->table WHERE (EMail, Password, Username) = $values";
         $result = $db->query($stmt);
         
     	return $result->fetch();
@@ -141,7 +141,7 @@ abstract class Model
 		//updated
         $db = $this->newDbCon();
         $values = $this->prepareValuesForQuery($data);
-		$stmt = "INSERT INTO $this->table (EMail, Username, Password) VALUES $values";
+		$stmt = "INSERT INTO $this->table (EMail, Password, Username) VALUES $values";
 
     	$stmt = $db->query($stmt);
 
