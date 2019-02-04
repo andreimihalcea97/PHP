@@ -16,7 +16,12 @@
             font-size: 30px;
             color: aliceblue;
         }
-        li{
+        h2{
+            font-size: 40px;
+            color: aliceblue;
+            text-align: center;
+        }
+        td{
             font-size: 15px;
             color: aliceblue;
         }
@@ -43,14 +48,28 @@
         button[class="buyBtn"]:hover::before{
             content: '$';
         }
-        p{
+        td[class="error"]{
             color: red;
+            vertical-align: center;
+            padding: 15px;
+            white-space: nowrap;
+        }
+        table{
+            table-layout: auto;
+        }
+        tr{
+            table-layout: fixed;
+            width:100%;
+        }
+        table tbody{
+            overflow-y: auto;
         }
     </style>
 
+    <h2>Stean Store</h2>
 {% for game in store %}
-    <h1>Game {{game.GameName}}</h1>
-    <ul>
+    <h1>{{game.GameName}}</h1>
+    <!-- <ul>
         <li>Price: {{game.GamePrice}}</li>
         <li>Publisher: {{game.GamePublisher}}</li>
         {% if game.ID == gameOwnedIndex %}
@@ -59,6 +78,37 @@
         <form action="/buygame/{{index}}/{{game.ID}}" method="get">
             <button type="submit" class="buyBtn"><span>Buy</span></button>
         </form>
-    </ul>
+    </ul> -->
+    <table style="width: 60%">
+        <tr>
+            <td>
+                <img src="{{game.imgPath}}" width="50" height="75"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Publisher: {{game.GamePublisher}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Price: {{game.GamePrice}}
+            </td>
+        </tr>
+        {% if game.ID == gameOwnedIndex %}
+            <tr>
+                <td class="error">{{error}}</td>
+            </tr>
+        {% endif %}
+        <tr>
+            <td>
+            <form action="/buygame/{{index}}/{{game.ID}}" method="get">
+                <button type="submit" class="buyBtn"><span>Buy</span></button>
+            </form>
+            </td>
+        </tr>
+    </table>
+
+    <!-- <img src="{{game.imgPath}}"/> -->
 {% endfor %}
 {% endblock %}
