@@ -20,9 +20,6 @@ class Router
     }
 
     public function checkUrl():void{
-        
-        // debug url
-        echo $this->url;
 
         if(preg_match('/login/', $this->url))
         {

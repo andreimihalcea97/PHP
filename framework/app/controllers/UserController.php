@@ -13,8 +13,10 @@ class UserController extends Controller
     public function showAction($id)
     {
         $user = (new User)->get($id);
+        $current_user_email = str_replace("@", "%40", $user->EMail);
+        $back_to_menu = "?email=" . $current_user_email . "&pass=" . $user->Password;
         $games = (new Game)->getGamesForUser($id);
-        return $this->view('user/show.html', ["user" => $user, "games" => $games]);
+        return $this->view('user/show.html', ["user" => $user, "games" => $games, "back_menu_link" => $back_to_menu]);
     }
 
     public function loginAction()
@@ -74,7 +76,9 @@ class UserController extends Controller
     {   
         $admin = new User();
         $current_user = $admin->get($userID);
-        return $this->view('user/add_funds.html', ["user" => $current_user]);
+        $current_user_email = str_replace("@", "%40", $current_user->EMail);
+        $back_to_menu = "?email=" . $current_user_email . "&pass=" . $current_user->Password;
+        return $this->view('user/add_funds.html', ["user" => $current_user, "back_menu_link" => $back_to_menu]);
     }
 
     public function addFundsDone($userID, $sum)

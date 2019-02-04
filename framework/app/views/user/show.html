@@ -23,19 +23,54 @@
     li{
         font-size: 20px;
         color: aliceblue;
+        list-style-type: none;
+    }
+    button[class="backBtn"]{
+        cursor: pointer;
+        position: relative;
+        background-color: aliceblue;
+        height: 50px;
+        width: 120px;
+        font-family: monaco, monospace;
+        text-align: center;
+        font-size: 20;
+        border-color: #191970;
+        border-radius: 10px;
+        color: rgb(27, 128, 7);
+        bottom: 800px;
+        left: 550px;
+    }
+    button[class="backBtn"]:hover{
+        color: aliceblue;
+        background-color: rgb(27, 128, 7);
+    }
+    button[class="backBtn"]:hover span{
+        display:none;
+    }
+    button[class="backBtn"]:hover::before{
+        content: 'go back';
     }
 </style>
+
 <h1>User {{user.Username}}</h1>
 <ul>
-    <li>Email: {{user.EMail}}</li>
+    <h2>User data:</h2>
+        <li>EMail: {{user.EMail}}</li>
+        <li>Username: {{user.Username}}</li>
+        <li>Balance: {{user.Wallet}} lei</li>
 </ul>
-<ul>
+<u1>
+    <h2>Owned games:</h2>
     {% for game in games %}
     <h2>Game {{game.GameName}}</h2>
     <ul>
         <li>Publisher: {{game.GamePublisher}}</li>
     </ul>
     {% endfor %}
-</ul>
+</u1>
+
+<form action="/login/{{back_menu_link}}" method="post">
+    <button type="submit" class="backBtn"><span>Back to menu</span></button>
+</form>
 {% endblock %}
 

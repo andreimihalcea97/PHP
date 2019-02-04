@@ -37,6 +37,31 @@
         button[class="addBtn"]:hover::before{
             content: '+';
         }
+        button[class="backBtn"]{
+            cursor: pointer;
+            position: relative;
+            background-color: aliceblue;
+            height: 50px;
+            width: 120px;
+            font-family: monaco, monospace;
+            text-align: center;
+            font-size: 20;
+            border-color: #191970;
+            border-radius: 10px;
+            color: rgb(27, 128, 7);
+            bottom: 40px;
+            left: 150px;
+        }
+        button[class="backBtn"]:hover{
+            color: aliceblue;
+            background-color: rgb(27, 128, 7);
+        }
+        button[class="backBtn"]:hover span{
+            display:none;
+        }
+        button[class="backBtn"]:hover::before{
+            content: 'go back';
+        }
         h1{
             font-size: 40px;
             color: aliceblue;
@@ -59,6 +84,10 @@
 <form action="/user/sumadd/{{user.ID}}/" method="get">
     Suma dorita: <input type="number" name = "sum" placeholder="0 RON" class="sumInput"><br/>
     <button type="submit" class="addBtn"><span>Add funds</span></button>
+</form>
+
+<form action="/login/{{back_menu_link}}" method="post">
+    <button type="submit" class="backBtn"><span>Back to menu</span></button>
 </form>
 
 <p class="confirm">
