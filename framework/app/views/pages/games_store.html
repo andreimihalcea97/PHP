@@ -60,8 +60,8 @@
         border-color: #191970;
         border-radius: 10px;
         color: rgb(27, 128, 7);
-        bottom: 800px;
-        left: 550px;
+        bottom: 1250px;
+        left: 10px;
         }
         button[class="backBtn"]:hover{
             color: aliceblue;
@@ -118,12 +118,12 @@
         </tr>
         {% if game.ID == gameOwnedIndex %}
             <tr>
-                <td class="error">{{error}}</td>
+                <td class="error">{{message}}</td>
             </tr>
         {% endif %}
         {% if game.ID == gamePurchasedIndex %}
             <tr>
-                <td class="purchased">{{error}}</td>
+                <td class="purchased">{{message}}</td>
             </tr>
         {% endif %}
         <tr>

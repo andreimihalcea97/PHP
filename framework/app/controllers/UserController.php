@@ -84,10 +84,11 @@ class UserController extends Controller
     public function addFundsDone($userID, $sum)
     {   
         $admin = new User();
-        $current_user = $admin->get($userID);
-        $current_user_email = str_replace("@", "%40", $current_user->EMail);
-        $back_to_menu = "?email=" . $current_user_email . "&pass=" . $current_user->Password;
+        
         if($admin->addFunds($userID, $sum) == false){
+            $current_user = $admin->get($userID);
+            $current_user_email = str_replace("@", "%40", $current_user->EMail);
+            $back_to_menu = "?email=" . $current_user_email . "&pass=" . $current_user->Password;
             $confirmation = "Funds added successfully!";
             return $this->view('user/add_funds.html', ["confirmation" => $confirmation, "user" => $userID, "back_menu_link" => $back_to_menu]);
         }

@@ -30,14 +30,20 @@ class GameController extends Controller
     public function buyGameAction($userIndex, $gameIndex)
     {
         $addGame = new Game();
-        $gameValue = $addGame->get($gameIndex)->GamePrice;
         $admin = new User();
+        $gameValue = $addGame->get($gameIndex)->GamePrice;
+        $user = $admin->get($userIndex);
+        $store = $addGame->getAllGames();
+        $current_user_email = str_replace("@", "%40", $user->EMail);
+        $back_to_menu = "?email=" . $current_user_email . "&pass=" . $user->Password;
+
         if ($addGame->findIfAlreadyBought(array($userIndex, $gameIndex)) == false)
         {
             $availability = $admin->checkWallet($userIndex, $gameValue);
             if($availability == false){
-                $error = 'Not enough money in your wallet. You can add more anytime!';
-                return $this->view('user/add_funds.html', ["user" => $userIndex, "error" => $error]);
+                
+                $message = "Not enough money!";
+                return $this->view('pages/games_store.html', ["store" => $store, "index" => $userIndex, "message" => $message, "back_menu_link" => $back_to_menu, "gameOwnedIndex" => $gameIndex]);
             }
             else{
                 if ($addGame->buyGame(array($userIndex, $gameIndex)) == false)
@@ -45,13 +51,9 @@ class GameController extends Controller
                     $boughtGame = $addGame->get($gameIndex);
                     $price = $boughtGame->GamePrice;
                     $admin->subtractFunds($userIndex, $price);
-                    $user = (new User)->get($userIndex);
-                    $store = (new Game)->getAllGames();
-                    $current_user_email = str_replace("@", "%40", $user->EMail);
-                    $back_to_menu = "?email=" . $current_user_email . "&pass=" . $user->Password;
-                    $error = "Game purchased.";
+                    $message = "Game purchased.";
 
-                    return $this->view('pages/games_store.html', ["store" => $store, "index" => $userIndex, "error" => $error, "back_menu_link" => $back_to_menu, "gamePurchasedIndex" => $gameIndex]);
+                    return $this->view('pages/games_store.html', ["store" => $store, "index" => $userIndex, "message" => $message, "back_menu_link" => $back_to_menu, "gamePurchasedIndex" => $gameIndex]);
                 }
                 else
                 {
@@ -61,14 +63,8 @@ class GameController extends Controller
         }
         else
         {
-            $store = (new Game)->getAllGames();
-            $user = (new User)->get($userIndex);
-
-            $current_user_email = str_replace("@", "%40", $user->EMail);
-            $back_to_menu = "?email=" . $current_user_email . "&pass=" . $user->Password;
-            $error = "Game already bought!";
-
-            return $this->view('pages/games_store.html', ["store" => $store, "index" => $userIndex, "error" => $error, "gameOwnedIndex" => $gameIndex, "back_menu_link" => $back_to_menu]);
+            $message = "Game already bought!";
+            return $this->view('pages/games_store.html', ["store" => $store, "index" => $userIndex, "message" => $message, "gameOwnedIndex" => $gameIndex, "back_menu_link" => $back_to_menu]);
         }
     }
 }
