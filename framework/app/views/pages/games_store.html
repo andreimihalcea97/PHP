@@ -60,7 +60,7 @@
         border-color: #191970;
         border-radius: 10px;
         color: rgb(27, 128, 7);
-        bottom: 1250px;
+        bottom: 2850px;
         left: 10px;
         }
         button[class="backBtn"]:hover{
@@ -126,14 +126,18 @@
                 <td class="purchased">{{message}}</td>
             </tr>
         {% endif %}
-        <tr>
-            <td>
+        
+    </table>
+    <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/{{game.YTToken}}">
+    </iframe>
+    <tr>
+        <td>
             <form action="/buygame/{{index}}/{{game.ID}}" method="POST">
                 <button type="submit" class="buyBtn"><span>Buy</span></button>
             </form>
-            </td>
-        </tr>
-    </table>
+        </td>
+    </tr>
 {% endfor %}
 <form action="/login/{{back_menu_link}}" method="post">
     <button type="submit" class="backBtn"><span>Back to menu</span></button>
